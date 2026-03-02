@@ -6,4 +6,3 @@ __pycache__/
 *.pyc
 bench_pdf/
 openragbench/
-storage/
