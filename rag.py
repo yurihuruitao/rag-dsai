@@ -10,7 +10,7 @@ from llama_index.core import (
     Settings,
     load_index_from_storage,
 )
-from llama_index.core.node_parser import SentenceSplitter
+from llama_index.core.node_parser import SentenceSplitter, TokenTextSplitter
 from llama_index.core.retrievers import QueryFusionRetriever
 from llama_index.core.chat_engine import CondensePlusContextChatEngine
 from llama_index.core.memory import ChatMemoryBuffer
@@ -18,7 +18,6 @@ from llama_index.core.postprocessor import SentenceTransformerRerank
 from llama_index.vector_stores.faiss import FaissVectorStore
 from llama_index.llms.openai_like import OpenAILike
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-import pymupdf  # noqa: F401 (faster PDF parser)
 
 from rank_bm25 import BM25Okapi
 from llama_index.core.retrievers import BaseRetriever
@@ -71,10 +70,26 @@ def init_settings(config):
     )
     Settings.chunk_size = config.CHUNK_SIZE
     Settings.chunk_overlap = config.CHUNK_OVERLAP
-    Settings.node_parser = SentenceSplitter(
-        chunk_size=config.CHUNK_SIZE,
-        chunk_overlap=config.CHUNK_OVERLAP,
-    )
+
+    chunk_strategy = getattr(config, "CHUNK_STRATEGY", "sentence")
+    if chunk_strategy == "paragraph":
+        Settings.node_parser = SentenceSplitter(
+            chunk_size=config.CHUNK_SIZE,
+            chunk_overlap=config.CHUNK_OVERLAP,
+            paragraph_separator="\n\n",
+        )
+    elif chunk_strategy == "character":
+        Settings.node_parser = TokenTextSplitter(
+            chunk_size=config.CHUNK_SIZE,
+            chunk_overlap=config.CHUNK_OVERLAP,
+            separator="",
+            backup_separators=[" "],
+        )
+    else:
+        Settings.node_parser = SentenceSplitter(
+            chunk_size=config.CHUNK_SIZE,
+            chunk_overlap=config.CHUNK_OVERLAP,
+        )
     return model
 
 
@@ -108,8 +123,10 @@ def build_index(config):
         documents, storage_context=storage_context, show_progress=True
     )
 
-    index.storage_context.persist(persist_dir=config.STORAGE_DIR)
-    print(f"✅ 索引已保存到 {config.STORAGE_DIR}/")
+    storage_dir = getattr(config, "STORAGE_DIR", "storage")
+    os.makedirs(storage_dir, exist_ok=True)
+    index.storage_context.persist(persist_dir=storage_dir)
+    print(f"✅ 索引已保存到 {storage_dir}/")
     return index
 
 
@@ -144,6 +161,11 @@ def build_hybrid_retriever(index, config):
 
 def get_reranker(config):
     """创建重排序后处理器"""
+    use_reranker = getattr(config, "USE_RERANKER", True)
+    if not use_reranker:
+        print("ℹ️ 未启用重排序模型 (USE_RERANKER=False)")
+        return None
+
     reranker = SentenceTransformerRerank(
         model=config.RERANK_MODEL,
         top_n=config.RERANK_TOP_N,

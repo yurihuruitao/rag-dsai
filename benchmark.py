@@ -35,6 +35,9 @@ def get_args():
     parser.add_argument(
         "--workers", type=int, default=8, help="并发执行的线程数，默认为 8"
     )
+    parser.add_argument(
+        "--no-resume", action="store_true", help="不使用断点续传，从头开始测试"
+    )
     return parser.parse_args()
 
 
@@ -80,6 +83,12 @@ def run_benchmark(args):
         if args.output
         else getattr(config, "BENCH_OUTPUT", "bench_results.json")
     )
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+
+    storage_dir = getattr(config, "STORAGE_DIR", "storage")
+    index_source_exp = getattr(config, "INDEX_SOURCE_EXP", None)
+    if index_source_exp:
+        storage_dir = f"storage/{index_source_exp}"
 
     print("==================================================")
     print("🚀 启动 Benchmark")
@@ -89,6 +98,8 @@ def run_benchmark(args):
     print(f"🔹 文档切块: {config.CHUNK_SIZE} / 重叠 {config.CHUNK_OVERLAP}")
     print(f"🔹 粗检索数: 向量 {config.VECTOR_TOP_K} / BM25 {config.BM25_TOP_K}")
     print(f"🔹 重排序保留: {config.RERANK_TOP_N}")
+    if index_source_exp:
+        print(f"🔹 索引来源 (INDEX_SOURCE_EXP): {index_source_exp} ({storage_dir})")
     print(f"🔹 并发线程数: {args.workers}")
     print(f"🔹 输出文件: {output_path}")
     print("==================================================\n")
@@ -97,15 +108,15 @@ def run_benchmark(args):
     print("⏳ 正在初始化模型...")
     init_settings(config)
 
-    if not os.path.exists(config.STORAGE_DIR):
+    if not os.path.exists(storage_dir):
         print(
-            f"❌ 索引目录不存在: {config.STORAGE_DIR}。请先运行 build_index.py 建立向量数据库。"
+            f"❌ 索引目录不存在: {storage_dir}。请先运行 build_index.py 建立向量数据库。"
         )
         return
 
     # 加载索引
     print("⏳ 加载索引...")
-    index = load_index(config.STORAGE_DIR)
+    index = load_index(storage_dir)
 
     # 构建检索器和重排序器
     from rag import build_hybrid_retriever, get_reranker
@@ -114,6 +125,7 @@ def run_benchmark(args):
 
     retriever = build_hybrid_retriever(index, config)
     reranker = get_reranker(config)
+    node_postprocessors = [reranker] if reranker else []
 
     # 加载数据
     queries, answers = load_bench_data(config)
@@ -121,8 +133,28 @@ def run_benchmark(args):
     if args.limit:
         query_ids = query_ids[: args.limit]
 
+    # 断点续传：加载已有结果，跳过已完成的查询
+    existing_results = []
+    if not args.no_resume and os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                existing_results = json.load(f)
+            done_ids = {r["id"] for r in existing_results}
+            before = len(query_ids)
+            query_ids = [qid for qid in query_ids if qid not in done_ids]
+            print(
+                f"\n🔄 断点续传：已完成 {before - len(query_ids)} 条，跳过，剩余 {len(query_ids)} 条"
+            )
+        except (json.JSONDecodeError, KeyError):
+            print("\n⚠️  已有结果文件损坏，将从头开始")
+            existing_results = []
+
+    if not query_ids:
+        print("\n✅ 所有查询均已完成，无需继续。如需重跑请加 --no-resume")
+        return
+
     total = len(query_ids)
-    print(f"\n📊 共 {total} 条待测试\n")
+    print(f"📊 共 {total} 条待测试\n")
 
     results = []
     save_lock = threading.Lock()
@@ -139,9 +171,9 @@ def run_benchmark(args):
         )
         chat_engine = CondensePlusContextChatEngine.from_defaults(
             retriever=retriever,
-            node_postprocessors=[reranker],
+            node_postprocessors=node_postprocessors,
             memory=memory,
-            system_prompt=config.SYSTEM_PROMPT,
+            system_prompt=getattr(config, "SYSTEM_PROMPT", ""),
             verbose=False,
         )
 
@@ -213,20 +245,26 @@ def run_benchmark(args):
                     with save_lock:
                         results.append(res)
                         completed_count += 1
-                        # 每 10 条保存一次
+                        # 每 10 条保存一次（合并已有结果）
                         if completed_count % 10 == 0:
-                            current_results = sorted(results, key=lambda x: x["index"])
-                            save_results(current_results, output_path)
+                            merged = existing_results + sorted(
+                                results, key=lambda x: x["index"]
+                            )
+                            merged.sort(key=lambda x: x["index"])
+                            save_results(merged, output_path)
 
                 except Exception as exc:
                     tqdm.write(f"  ❌ [{i+1}] {exc}")
 
                 pbar.update(1)
 
-    # 最终保存
-    results.sort(key=lambda x: x["index"])
-    save_results(results, output_path)
-    print(f"\n🎉 测试完成！共 {len(results)} 条结果已保存到 {output_path}")
+    # 最终保存（合并已有结果 + 新结果）
+    all_results = existing_results + sorted(results, key=lambda x: x["index"])
+    all_results.sort(key=lambda x: x["index"])
+    save_results(all_results, output_path)
+    print(
+        f"\n🎉 测试完成！本次新增 {len(results)} 条，共 {len(all_results)} 条结果已保存到 {output_path}"
+    )
 
 
 def main():

@@ -11,11 +11,18 @@ DEFAULT_MODEL = "deepseek-reasoner"
 EMBEDDING_MODEL = "BAAI/bge-m3"
 EMBEDDING_DIM = 1024
 
+USE_RERANKER = True
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
 RERANK_TOP_N = 3
 
 PDF_DIR = "bench_pdf"
-STORAGE_DIR = "storage"
+
+# Experiment settings
+EXP_NAME = "baseline"
+STORAGE_DIR = f"storage/{EXP_NAME}"
+
+# chunk_strategy can be "sentence" or "paragraph"
+CHUNK_STRATEGY = "sentence"
 CHUNK_SIZE = 512
 CHUNK_OVERLAP = 50
 
@@ -26,7 +33,8 @@ CHAT_MEMORY_TOKEN_LIMIT = 3000
 
 BENCH_QUERIES = "openragbench/pdf/arxiv/queries.json"
 BENCH_ANSWERS = "openragbench/pdf/arxiv/answers.json"
-BENCH_OUTPUT = "bench_results.json"
+BENCH_OUTPUT = f"results/bench_{EXP_NAME}.json"
+EVAL_OUTPUT = f"results/eval_{EXP_NAME}.json"
 
 SYSTEM_PROMPT = """You are a professional document QA assistant. Answer the user's question based on the retrieved document content.
 
