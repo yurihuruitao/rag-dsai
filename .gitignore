@@ -5,4 +5,3 @@ pdf/
 __pycache__/
 *.pyc
 bench_pdf/
-openragbench/
