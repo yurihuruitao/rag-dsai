@@ -18,11 +18,27 @@ pip install -r requirements.txt
 | --- | --- | --- |
 | `EXP_NAME` | **必填**。实验名称，如 `"baseline"`。系统会自动生成对应的存储路径 `storage/{EXP_NAME}` | `"baseline"` |
 | `INDEX_SOURCE_EXP` | **选填**。如果只想复用其他实验建好的索引库（例如跨模型评测同一批文本），设置为该实验的名称 | `"baseline"` |
-| `CHUNK_STRATEGY` | 文本切块策略，支持 `"sentence"`, `"paragraph"`, 或 `"character"` | `"character"` |
+| `CHUNK_STRATEGY` | 文本切块策略，支持 `"sentence"`, `"paragraph"`, 或 `"token"` | `"Sentence"` |
 | `USE_RERANKER` | 是否开启重排序模型 (`True` 或 `False`) | `True` |
 | `DEEPSEEK_API_KEY` | DeepSeek API 密钥 | `sk-xxx` |
 | `EMBEDDING_MODEL` | Embedding 模型 | `BAAI/bge-m3` |
 | `RERANK_MODEL` | 重排序模型 | `BAAI/bge-reranker-v2-m3` |
+
+### 文本分块策略 (CHUNK_STRATEGY)
+
+系统目前在 `rag.py` 中实现了三种不同的文本切分（Chunking）策略，以适配不同的检索需求：
+
+1. **`"sentence"`**（默认策略）：
+   - **代码实现**：使用 LlamaIndex 的 `SentenceSplitter`。
+   - **策略说明**：优先按照单句边界进行文本切分。它会在满足 `CHUNK_SIZE` 和 `CHUNK_OVERLAP` 长度限制的前提下，尽量保证一句话的完整性，适合大多数常规文本检索场景。
+
+2. **`"paragraph"`**：
+   - **代码实现**：使用 `SentenceSplitter` 并指定强制段落分隔符 `paragraph_separator="\n\n"`。
+   - **策略说明**：优先按照段落（连续两个换行符）进行文本分块。这种策略能够最大程度保留单个段落上下文的连贯性，对于排版规范、段落逻辑严密（如 PDF 论文）的文档非常有效。
+
+3. **`"token"`**：
+   - **代码实现**：使用 LlamaIndex 的 `TokenTextSplitter`，以空格 `separator=" "` 为主要切分符，换行符 `backup_separators=["\n"]` 为备用切分符。
+   - **策略说明**：严格按照 Token（或词元边界）进行硬切分。这种方式能最精确地控制每个分块的大小上限，但在切分时可能会破坏句子的物理结构甚至截断语义。
 
 ## 使用流程
 

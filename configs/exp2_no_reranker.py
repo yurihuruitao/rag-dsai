@@ -1,5 +1,6 @@
 # configs/exp2_no_reranker.py
-DEEPSEEK_API_KEY = "sk-550759a782c941e3b59a47bcd6f8e2aa"
+import os
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 
 MODELS = {
@@ -25,7 +26,7 @@ RERANK_TOP_N = 3
 
 PDF_DIR = "ourbench/pdf"
 
-# chunk_strategy can be "sentence", "paragraph", or "character"
+# chunk_strategy can be "sentence", "paragraph", or "token"
 CHUNK_STRATEGY = "sentence"
 CHUNK_SIZE = 512
 CHUNK_OVERLAP = 50

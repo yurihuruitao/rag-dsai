@@ -85,12 +85,12 @@ def init_settings(config):
             chunk_overlap=config.CHUNK_OVERLAP,
             paragraph_separator="\n\n",
         )
-    elif chunk_strategy == "character":
+    elif chunk_strategy == "token":
         Settings.node_parser = TokenTextSplitter(
             chunk_size=config.CHUNK_SIZE,
             chunk_overlap=config.CHUNK_OVERLAP,
-            separator="",
-            backup_separators=[" "],
+            separator=" ",
+            backup_separators=["\n"],
         )
     else:
         Settings.node_parser = SentenceSplitter(
