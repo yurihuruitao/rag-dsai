@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python download_pdfs.py
 ```
 
-PDF 文件将保存到 `bench_pdf/` 目录。
+PDF 文件将保存到 `ourbench/pdf/` 目录。
 
 ### 2. 构建向量索引
 
@@ -93,8 +93,7 @@ python evaluate.py --config configs/exp1_baseline.py --workers 8
 │   ├── exp1_baseline.py
 │   └── ...
 ├── requirements.txt    # 依赖列表
-├── bench_pdf/          # PDF 文件目录
+├── ourbench/           # 测试数据集 (PDFs和Q&A)
 ├── storage/            # 向量索引存储 (按实验分组)
-├── results/            # Benchmark 和评测输出 (按实验分组)
-└── openragbench/       # Benchmark 数据集
+└── results/            # Benchmark 和评测输出 (按实验分组)
 ```

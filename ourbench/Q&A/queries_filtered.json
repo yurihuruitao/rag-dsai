@@ -1,0 +1,4107 @@
+{
+  "2505.02156v5_s48": {
+    "query": "What are the two main phases in the Adaptive Social Learning Optimization procedure?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.16164v2_s32": {
+    "query": "Why did the authors include the number of correct responses as a constraint in their prompt for the phonemic fluency task?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.19862v2_s55": {
+    "query": "What are the two classification labels used in the SFT prompt for analyzing model-generated responses?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06823v2_s13": {
+    "query": "What are the five content-injection barriers defined in the study and their corresponding categories?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.16902v2_s39": {
+    "query": "What are the three hyperparameters studied for model capacity in this subsection?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s242": {
+    "query": "How does the paper address the challenge of multiple valid solutions in N-Queens?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.08612v3_s3": {
+    "query": "What are the main categories of recent methods used in Aspect-Based Sentiment Analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.12565v3_s6": {
+    "query": "How does mCLM ensure that generated molecules are efficiently synthesizable?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.16553v4_s30": {
+    "query": "What are the key differences between the training approaches of MoBLLM and LLM-Mob?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.04584v4_s16": {
+    "query": "What types of tasks and data sources are covered by the 15 datasets analyzed?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.22613v2_s21": {
+    "query": "What does Theorem 4.2 state about the gradient behavior for logits corresponding to incorrect tuples?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.21914v2_s73": {
+    "query": "What does a positive ΔSimilarity value indicate about the model's learning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24203v2_s25": {
+    "query": "How does RED-Drop modify the policy gradient estimate using a filtered subset of responses?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.09580v2_s197": {
+    "query": "What were the main outcomes compared between individuals with ASCVD and matched controls in the Swedish study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18841v2_s62": {
+    "query": "What does the narrator see in the house that confirms the presence of their mother's ghost?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25149v2_s35": {
+    "query": "How is the local decode scale factor computed and stored for Tensor Cores?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.05541v2_s2": {
+    "query": "What are the main limitations of Sparse Autoencoders when applied to large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22212v2_s20": {
+    "query": "What improvement in inter-rater agreement was observed with Prompt-Final compared to the original criteria in LENS?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13529v2_s19": {
+    "query": "How do the authors evaluate the correctness of model responses in their study?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.26346v2_s13": {
+    "query": "How does the tie-disentanglement method enhance training stability and data utility?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s225": {
+    "query": "What are the components of the state transition system used to formalize the Tower of Hanoi problem?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.03867v3_s49": {
+    "query": "What do Figures 9, 10, and 11 illustrate about masculine rates in different template types?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24803v3_s69": {
+    "query": "What algorithm is used for reinforcement learning in Stage 2, and what does it sample from the policy model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s6": {
+    "query": "What are two examples of structured representation learning in NLP mentioned in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s168": {
+    "query": "What specific changes were made to the configuration file based on the critique?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.01191v2_s63": {
+    "query": "What distinguishes well-formed rewrites from problematic ones in the Reframer examples?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.00685v2_s27": {
+    "query": "What are the main limitations of recent automatic workflow generation approaches in multi-agent systems?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13529v2_s50": {
+    "query": "Which model consistently achieves the highest performance in accuracy and truthfulness across all k values?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01481v4_s42": {
+    "query": "How is Intrinsic Entropy measured in the experiment described?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.17844v3_s21": {
+    "query": "How are the sender's age and gender manipulated in the study setup?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20498v3_s66": {
+    "query": "What were the criteria for selecting workers and the payment per comparison in the human preference study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s21": {
+    "query": "How does the two-pass training method approximate the feedback-augmented marginal distribution in the SM model?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01481v4_s2": {
+    "query": "What are the two components into which the total loss is decomposed in this analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15863v2_s11": {
+    "query": "What is the key innovation of PolySkill compared to the ASI framework?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.16640v4_s17": {
+    "query": "What limitation of α-entmax with fixed α and temperature is addressed by ASEntmax?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.13615v4_s52": {
+    "query": "What error does the OS-Atlas-7B agent make when executing the 'turn wifi on' instruction with the toggle initially on?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20498v3_s63": {
+    "query": "What is the relationship between neighborhood size k and the expected maximum values in the RPS and baseline pools?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s178": {
+    "query": "What are the three validation checks performed in Algorithm 6 to ensure a pattern is valid?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26314v3_s56": {
+    "query": "What are the key differences between correct and incorrect latent thoughts in the interpretability analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.23115v3_s43": {
+    "query": "What are the guidelines for properly crediting existing assets in a paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.02817v2_s1": {
+    "query": "What is the main purpose of the BOOM system described in the abstract?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.05850v3_s24": {
+    "query": "What approach is proposed to prevent the English shortcut while maintaining performance?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.04812v2_s11": {
+    "query": "What challenge does the cross-device negative sample gathering strategy address in LMM-based embedding models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.17844v3_s51": {
+    "query": "What are the age and language requirements for participating in the study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16902v2_s4": {
+    "query": "What is the purpose of the latent mapping φ_s in the training sequence generation?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.17206v2_s9": {
+    "query": "What is the purpose of the learnable function f_θ in the reverse decoding process?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25106v3_s62": {
+    "query": "What are the three personalized recommendations for integrating fitness into family and travel routines?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.02452v3_s9": {
+    "query": "Which models were selected to investigate definition receptivity, and what is their key characteristic?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s35": {
+    "query": "Who are the authors of the paper titled 'The llama 3 herd of models'?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05026v3_s26": {
+    "query": "What do the red, green, and blue dots represent in Figure 3?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24203v2_s24": {
+    "query": "How does the surrogate loss generalize when pairwise weights are introduced, and what is the resulting gradient expression?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.15040v2_s34": {
+    "query": "Which paper by Xu et al. focuses on a benchmark for complex visual reasoning in charts?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.02066v2_s43": {
+    "query": "What does the Frag-J metric measure and what do higher values indicate?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.07658v3_s65": {
+    "query": "Which models are most affected by option ordering effects according to Figure 12?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.18672v3_s2": {
+    "query": "What are the key findings of Kaplan et al. (2020) regarding scaling laws for large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.07452v3_s35": {
+    "query": "What are the Cohen's kappa values for inter-judge agreement between GPT-4o and the two safety-focused judges?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.09669v4_s9": {
+    "query": "What are the limitations of abstention-based approaches for mitigating hallucinations in LLMs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.18672v3_s58": {
+    "query": "What motivated the ablation study on depth using a 32-layer architecture?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26346v2_s31": {
+    "query": "Which paper introduced the Step1x-edit framework for general image editing in 2025?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.01191v2_s32": {
+    "query": "Which publicly available datasets were used in the experiments described in the reproducibility statement?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20812v4_s47": {
+    "query": "What effect does removing normalization have on draft selection in the main pool?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.21082v5_s29": {
+    "query": "What datasets were used in this work and what ethical considerations were addressed?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.23166v2_s43": {
+    "query": "What is the simplified expression for the one-step change in error derived in the proof of Theorem 4.1?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.12927v3_s27": {
+    "query": "What are the three main areas of lasting fallout from the Bhopal disaster as outlined in the prompt?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.02156v5_s34": {
+    "query": "How does the proposed thoughtful social agent differ from existing thoughtless agents in SOTOPIA?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.08820v2_s3": {
+    "query": "What are the two information-theoretic objectives of CAReDiO and their theoretical inspirations?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.19669v3_s11": {
+    "query": "What is the average accuracy gain of the oracle strategy over the best fixed baseline in the DiffAdapt experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17364v2_s52": {
+    "query": "What are the main limitations of current Yorubá NLP resources mentioned in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22212v2_s13": {
+    "query": "What were the Krippendorff's alpha values for meaning preservation, simplicity, and fluency in the Human-Judge evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05592v3_s11": {
+    "query": "How is the structural reward calculated in the described method?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.16301v3_s137": {
+    "query": "How do WebArena, OSWorld, and AgencyBench assess task completion in agent benchmarks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.13404v4_s22": {
+    "query": "What are the main limitations of TASER mentioned in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.10117v3_s26": {
+    "query": "How does the Option Composer's master policy differ from the Option Miner's strategy optimization?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.27246v2_s294": {
+    "query": "What are the three categories of incomplete practical guidance listed in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s191": {
+    "query": "What are the key components and benchmarks for computer-use agents as described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02286v2_s69": {
+    "query": "What criteria must be met for a system to be considered jailbroken in the robustness experiment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.21735v3_s16": {
+    "query": "What are the two main phases of GateLens's workflow for test data analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s122": {
+    "query": "What is the required format for the final answer in the mode task?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.11662v3_s29": {
+    "query": "What guidance does Section E provide on MLLM verifier design?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.03794v2_s16": {
+    "query": "What is the purpose of the tool reward R_tool in the model?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07610v6_s2": {
+    "query": "What is the main limitation of current MLLM evaluations according to the introduction?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.07610v6_s149": {
+    "query": "What is the required format for answering the mental folding-cube unfolding question?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01534v3_s45": {
+    "query": "How is the preference leakage score calculated for the Mistral-GPT-4o vs Mistral-Gemini-1.5 pair on AlpacaEval 2.0?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.12474v2_s8": {
+    "query": "What are the two main components co-optimized in the IP model described in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22747v3_s27": {
+    "query": "What does the training perplexity indicate about the models' adaptation to Québec French?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.08113v3_s28": {
+    "query": "What two strategies did the authors explore to mitigate the skill composition gap in MLLMs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s5": {
+    "query": "What are the main contributions of the soft-masking mechanism introduced in this work?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01182v2_s27": {
+    "query": "Which paper by Tim Dettmers et al. was published in Advances in Neural Information Processing Systems in 2024?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s43": {
+    "query": "Which authors are listed for the SmolLM2 paper in the references section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.08113v3_s6": {
+    "query": "What are the two main reasons open-source MLLMs are ideal for studying skill composition?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.08646v2_s27": {
+    "query": "What are the main limitations of ELS in adapting to new jailbreak tactics?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.16640v4_s98": {
+    "query": "What are the key hyperparameters used for the 420M-parameter decoder-only model in this study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01406v4_s32": {
+    "query": "Which paper in the section addresses gender bias in transformers with a comprehensive review?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.05639v2_s42": {
+    "query": "What two evaluation runs are analyzed for the Event Split's training and validation questions?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s47": {
+    "query": "What is the threshold for Jaccard similarity in the fine-grained filtering stage?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.07885v3_s4": {
+    "query": "How much did the win/tie rate of local LMs versus frontier models improve from 2023 to 2025?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20498v3_s47": {
+    "query": "Under what conditions does the inequality become strict in the expectation comparison?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26314v3_s79": {
+    "query": "How does LTO's performance change as the number of thinking steps increases, and what is the reason?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s231": {
+    "query": "How does the Tower of Hanoi problem guarantee a unique optimal solution path?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06084v2_s44": {
+    "query": "What are the two principal hypotheses for why instruction-tuning leads to spiky distributions and mode collapse?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s67": {
+    "query": "What do Figures 12 and 13 illustrate in the case study on reproducing the G-Eval paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.17192v5_s125": {
+    "query": "What does Figure 23 illustrate regarding the overall planning process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.10118v2_s47": {
+    "query": "What are the key features and objectives of the baseline methods integrated for validating MoB?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.21396v2_s8": {
+    "query": "How many papers were identified as meeting the criteria for clear hypotheses and replicable data?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.05087v3_s37": {
+    "query": "How do LoRA and full fine-tuning compare in downstream accuracy relative to the base model?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.10941v2_s25": {
+    "query": "What are the three proxy tasks used to train the DiT model in the proposed framework?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17262v4_s34": {
+    "query": "Which authors published a paper on compute-efficient model ladders in 2024?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s103": {
+    "query": "What are the main differences in relation usage between GraphMERT and LLM-based KG extraction?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.26346v2_s46": {
+    "query": "Which model achieved the top score on EditReward-Bench, and how does it compare to GPT-4o?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22445v3_s44": {
+    "query": "Which paper by Franz Nowak et al. was published in ACL 2024 and what is its topic?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.04700v2_s34": {
+    "query": "What do ablation experiments reveal about bidirectional loss in Cawai?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.05541v2_s28": {
+    "query": "Which organizations provided faculty research awards to support this work?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.22233v4_s26": {
+    "query": "How does lowering the entropy threshold affect the timing of branch points in the sequence?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.13474v3_s2": {
+    "query": "What is differential diagnosis and why is it important in emergency departments?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.24178v2_s8": {
+    "query": "Which four German TV shows were selected for the data collection, and what is their common characteristic?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13529v2_s47": {
+    "query": "What thresholds achieve the best trade-off between accuracy and truthfulness for Verbal Confidence and Probing in the GRPO experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.23166v2_s51": {
+    "query": "What is the final unified convergence bound derived in the proof?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17364v2_s44": {
+    "query": "What is the primary purpose of the WebCrawl African dataset and how many African languages does it include?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.02524v2_s21": {
+    "query": "How does the KL-divergence decompose according to the subgrammar structure?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.17206v2_s26": {
+    "query": "What does the feedback-scaling parameter λ=1 represent in the SM mechanism?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13529v2_s25": {
+    "query": "What trade-off does teaching refusal during SFT introduce according to the analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.15614v2_s16": {
+    "query": "What are the criteria for a candidate DAG to be considered valid in the causal inference model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.23115v3_s5": {
+    "query": "What are the main limitations of Transformer architectures and recent LLM-based approaches in mobility prediction?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.08966v2_s2": {
+    "query": "What is the main limitation of traditional embedding-based models for Knowledge Graph Completion?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.19590v3_s46": {
+    "query": "What do Figures 10 and 11 compare regarding training methods on the MATH dataset?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.20278v3_s2": {
+    "query": "What are the two main contributions the authors propose to clarify the concept of pattern matching?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05132v3_s40": {
+    "query": "What improvements does SSFT show for the 32B model on out-of-distribution generalization to code generation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.20278v3_s60": {
+    "query": "What patterns do GPT-2 models trained on PARALLEL-2-HOP and 3-HOP tasks exhibit in their intermediate state representations?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.01222v2_s26": {
+    "query": "What are the main components of the WebDS benchmark and its preliminary findings?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13531v2_s28": {
+    "query": "Who are the authors of the paper titled 'Training a helpful and harmless assistant with reinforcement learning from human feedback'?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07782v2_s14": {
+    "query": "What is the formula for column scoring in variance-aware selection?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s46": {
+    "query": "What are the four extraction strategies implemented by the parsers in order of strictness?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.21306v2_s1": {
+    "query": "What is PARL and how does it enable LLMs to act as reinforcement learning agents?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s35": {
+    "query": "Which paper by Boyan Li et al. focuses on a software-engineering-inspired text-to-SQL framework?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.17871v3_s54": {
+    "query": "What is the purpose of computing exponential moving averaged values in Figure 13?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.03113v5_s12": {
+    "query": "What conditions trigger early stopping in the model to prevent further output generation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22373v3_s104": {
+    "query": "What are the scores for Design Style and Visual Composition in the VisJudge evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s184": {
+    "query": "What are the main limitations of living benchmarks as described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.19862v2_s18": {
+    "query": "What is the purpose of using a reflection model in the online sequential revision design?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.04812v2_s21": {
+    "query": "What are the key advantages of LLaVE-7B over LamRA in video retrieval tasks?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01406v4_s59": {
+    "query": "How does the custom initialization for GRADIEND models differ from the default PyTorch approach?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.12522v2_s23": {
+    "query": "What does Figure 3 show about the efficiency of smaller models in generating unique examples?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.11662v3_s101": {
+    "query": "What are the two key flaws identified in the failed task trajectory in VisualWebArena?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.01222v2_s0": {
+    "query": "Which institutions are affiliated with the authors of the WebDS benchmark?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.16164v2_s31": {
+    "query": "What participant-level information was included in the fluency task prompt and why?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.10985v2_s8": {
+    "query": "What framework is used to annotate DPO datasets in the comparative analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s79": {
+    "query": "What is the formula for the first distance at which a frequency component's attention contribution crosses the threshold in RoPE?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22373v3_s85": {
+    "query": "What were the internal MAE values for dashboards, single views, and multi-views in the crowd-crowd analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.10985v2_s3": {
+    "query": "What are the main contributions of the study regarding DPO datasets?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.07452v2_s19": {
+    "query": "What hardware and batch size were used for fine-tuning the target models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.15557v2_s48": {
+    "query": "What were the three stages of the crowdsourcing pipeline used to create the DialogueEvaluation-2022 dataset?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.02840v2_s40": {
+    "query": "What steps are required to set up the system demonstration described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24203v2_s14": {
+    "query": "What does Figure 1 illustrate about REINFORCE's optimization trajectory compared to an ideal one?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.21740v3_s6": {
+    "query": "How does the speech BCI system connect the neural encoder and audio-LLM decoder?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.01191v2_s62": {
+    "query": "What is the key structural advantage of the multiplicative reward formulation over the additive one?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.05541v2_s22": {
+    "query": "What are the two main advantages of using SAEs for safety applications mentioned in the case study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.21735v3_s43": {
+    "query": "What are the main challenges of using pre-training and fine-tuning for LLMs in safety-critical applications?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.03005v3_s2": {
+    "query": "What are the main drawbacks of using proprietary LLMs like GPT in production environments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s46": {
+    "query": "Which paper by Liu et al. focuses on accelerating diffusion large language models with adaptive caching?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25369v2_s56": {
+    "query": "What are the criteria for a conversation to be considered not resolved according to the instructions?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20584v2_s40": {
+    "query": "Which paper discusses the use of ChatGPT for sentiment analysis in finance?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05282v5_s49": {
+    "query": "How does the Dual-Path strategy in MSCE compare to single-source baselines in terms of accuracy?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.15477v4_s40": {
+    "query": "How does the effectiveness of a reward model vary between RLHF and Best-of-N alignment methods?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.15557v2_s28": {
+    "query": "Which model achieves the highest correlation in fluency for Arabic, Hindi, Russian, and Ukrainian?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06823v2_s3": {
+    "query": "What is the main limitation of existing evaluation criteria for RAG systems when applied to Generative Engines?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.23896v2_s36": {
+    "query": "Which papers by Shamsuddeen Hassan Muhammad et al. focus on emotion recognition datasets?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s38": {
+    "query": "Which authors published a paper on extending LLMs' context window with 100 samples in 2024?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s223": {
+    "query": "Which paper from 2025 introduces a method for safeguarding frozen LLMs with adaptive system prompts?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26314v3_s81": {
+    "query": "What does the additional experiment on the Llama model family demonstrate about LTO's effectiveness?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.12927v3_s20": {
+    "query": "What is the purpose of using LLM-as-a-judge in evaluating fine-tuned models' output?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.27623v3_s29": {
+    "query": "How does BEAT compare to Benign SFT in terms of success rate (SR) according to the experimental results?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.11684v3_s1": {
+    "query": "What is the main contribution of the MathFimer framework introduced in this paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.17306v2_s9": {
+    "query": "How is the most effective refusal vector identified from candidate vectors in the extraction method?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16395v2_s3": {
+    "query": "What are the three main contributions of the OJBench study as outlined in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.13356v2_s9": {
+    "query": "How does dysfunction in the right TPJ affect moral reasoning according to the cited studies?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.07452v3_s36": {
+    "query": "What are the two benchmarks where the correlation between ASR inflation and attention difference does not hold, and why?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.16301v3_s36": {
+    "query": "How does the T2 paradigm adapt tools using supervision signals from a fixed agent's outputs?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.13606v2_s14": {
+    "query": "What method is used to generate captions for the optimal image sets in the voxel interpretation process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s362": {
+    "query": "What are the three rules for moving disks in the Tower of Hanoi puzzle as described?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s20": {
+    "query": "What is the difference between factuality errors and hallucinations in LLMs according to Wang et al., 2024f?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17262v4_s5": {
+    "query": "What domains have scaling laws been extended to beyond LLMs, according to the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01534v3_s24": {
+    "query": "What evidence suggests that preference leakage is subtle and harder to detect for judge LLMs?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.11165v2_s43": {
+    "query": "What is the mathematical expression for the output of the TM module in the MVHS layer?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06378v2_s28": {
+    "query": "How many participants were surveyed in the user study and what ethical measures were taken?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.17519v3_s39": {
+    "query": "What is the Chain-of-Lure method and how does it challenge traditional views on LLM security?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06823v2_s22": {
+    "query": "What distribution trend is observed for high-barrier sources across similarity bands in both Japanese and U.S. settings?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.00685v2_s33": {
+    "query": "Which paper by Nurbek Tastan and colleagues focuses on fair model rewards in collaborative learning using slimmable networks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22613v2_s67": {
+    "query": "What are the convergence rates for the weight error when k is not equal to i?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24203v2_s35": {
+    "query": "Which 2025 paper introduces a framework for reinforcement fine-tuning of large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.02623v6_s8": {
+    "query": "What are the two main steps in methods that integrate confidence estimation into instruction tuning?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20886v2_s50": {
+    "query": "What are the three capabilities required for an AI agent to play at human-level in the Collaborative Battleship experiment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.07087v2_s35": {
+    "query": "What are the key differences between SQL-Exchange and the zero-shot prompting baseline in the ablation study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.17844v3_s13": {
+    "query": "What is convincingness in the CAAF and how is it measured?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.00685v2_s16": {
+    "query": "Under what condition does the probability of two agents agreeing on a correct answer exceed that of agreeing on an incorrect one?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.10941v2_s43": {
+    "query": "What are the two frame sampling strategies used in the video pre-processing?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.06905v3_s6": {
+    "query": "What is the purpose of the support set in the MAPD framework?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.07321v2_s23": {
+    "query": "Which paper by Borah et al. tests LLMs' robustness under logical obfuscation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.18502v3_s10": {
+    "query": "What are the three main subsections of the methodology and their purposes?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.17192v5_s199": {
+    "query": "How does multi-head attention allow the model to attend to different representation subspaces?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.11684v3_s32": {
+    "query": "Which reference from 2025 focuses on incentivizing reasoning in LLMs via reinforcement learning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s14": {
+    "query": "What are some unmasking strategies used by MDLMs to improve generation quality?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05282v5_s5": {
+    "query": "What are the main efficiency-focused strategies explored to reduce computational costs in LLM reasoning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17364v2_s58": {
+    "query": "Which NLP tasks have received at least four studies each in Yorubá language research?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20584v2_s11": {
+    "query": "What are the main limitations of existing automated coding approaches mentioned in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.05026v3_s51": {
+    "query": "Which paper introduced the concept of perplexity as a measure for speech recognition tasks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05132v3_s35": {
+    "query": "What is the purpose of using a graph-based heuristic in the global forking policy optimization?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s446": {
+    "query": "What are the four methods a new task must implement in BeyondBench's architecture?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24203v2_s61": {
+    "query": "How does the REBEL algorithm's approach to solving the squared loss impact infrastructure efficiency in LLM-RL frameworks?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.11165v2_s6": {
+    "query": "What are the main categories of asynchronous event processing methods mentioned in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s3": {
+    "query": "What are the three structured stages of PaperCoder's framework for generating code repositories?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05282v5_s8": {
+    "query": "What is the formula for measuring token importance based on self-information as described in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s223": {
+    "query": "What is the purpose of the dual-phase token validation system described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.02387v4_s74": {
+    "query": "What does the trivial feature encode in the context of a teacher policy?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.21740v3_s4": {
+    "query": "What are the main limitations of previous speech BCI systems that the authors aim to address?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s160": {
+    "query": "What are the three main steps for forming a list of candidates in this process?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.08113v3_s13": {
+    "query": "Which models were excluded from evaluation due to unknown training details?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13529v2_s23": {
+    "query": "What is the reliability score improvement for DeepSeek-R1-Distill-Llama-8B using the BARREL method?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25084v2_s10": {
+    "query": "How many fine-grained categories are used to classify data analysis tasks in the query synthesis process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.11826v2_s30": {
+    "query": "What technologies are used in the frontend for real-time collaboration and data fetching?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.20278v3_s95": {
+    "query": "What is the relationship between multinomial and Poisson probabilities for any property of a random vector?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.17364v2_s68": {
+    "query": "What funding source and grant number supported the research described in this paper?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18485v3_s48": {
+    "query": "How does reward function density affect the performance of MeRF and RLVR on the K&K Logic Puzzle dataset?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s99": {
+    "query": "What two types of error analysis are presented to illustrate model evaluation issues?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.13615v4_s33": {
+    "query": "What datasets were used to construct the state control benchmark?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05069v3_s21": {
+    "query": "What are the absolute accuracy gains of SwiReasoning on AIME24 and AIME25 for Qwen3-8B?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.05541v2_s12": {
+    "query": "What is the purpose of the contrastive term added to the loss function in the Temporal Sparse Autoencoder?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.11662v3_s20": {
+    "query": "Which authors published the paper titled 'Physics of language models: Part 3.1, knowledge storage and extraction' in 2024?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17262v4_s14": {
+    "query": "What is the scaling law for downstream task performance and its key assumptions?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.21735v3_s29": {
+    "query": "How many out-of-scope and imprecise queries were used to evaluate robustness in RQ2?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.20278v3_s121": {
+    "query": "What does the authors' taxonomy aim to guide in future research on neural networks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.02840v2_s8": {
+    "query": "What are the three classes implemented in the LLM component and their purposes?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s54": {
+    "query": "What are the criteria for classifying an image as a single visualization?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.08820v2_s25": {
+    "query": "What are the three culturally proximate regions analyzed to assess distinctiveness in CAReDiO?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05077v2_s4": {
+    "query": "What is discussion-based orchestration and what is one example of it?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.19733v3_s21": {
+    "query": "What are the average pass@1 improvements for models post-trained on math data on math and code tasks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.21396v2_s57": {
+    "query": "What are the three main limitations discussed in the section regarding the proposed method?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.23115v3_s62": {
+    "query": "What are the hidden dimensions used for the embeddings and projection in the model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.20666v4_s11": {
+    "query": "What are the two preference optimization methods used after supervised fine-tuning in the experiment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.21285v2_s11": {
+    "query": "Which three datasets are included in PEFT-Bench for code generation tasks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.12553v2_s33": {
+    "query": "Which authors published a paper titled 'Shades of zero: Distinguishing impossibility from inconceivability' in 2025?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06084v2_s18": {
+    "query": "How does SPECTRUM TUNING perform on NoveltyBench-Curated compared to baselines?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.07452v3_s3": {
+    "query": "What is ASR inflation and how does it relate to style patterns in LLM safety?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.11662v3_s8": {
+    "query": "What is the definition of a multimodal verifier in the context of evaluating agent behavior?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.13356v2_s90": {
+    "query": "What are the two example connections provided for linking psychological principles to survivability outcomes?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.05387v4_s30": {
+    "query": "How is the matrix-based Rényi entropy defined and interpreted for normalized representations?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.07658v3_s55": {
+    "query": "Which target domain consistently achieves the best performance across all evaluation metrics in Figure 9?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.00177v2_s15": {
+    "query": "What is the purpose of implementing a passive user simulation in PrefDisco?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20498v3_s10": {
+    "query": "How is a user's preference represented in the framework, and what is the model's objective?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.11876v4_s6": {
+    "query": "What are the main limitations of existing methods for updating FFN parameters, according to the authors?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.19733v3_s41": {
+    "query": "What does the analysis of model-size variants in Table 4 reveal about generalizability trends?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.05087v3_s25": {
+    "query": "What societal risk is acknowledged in the broader impact statement, and how is it addressed?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.17364v2_s14": {
+    "query": "What is the main objective of the search strategy described in Section 3.3?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.24178v2_s11": {
+    "query": "How was the final label for each statement determined in the annotation process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06378v2_s51": {
+    "query": "What does the semantic regex element [:field color:] match in the provided examples?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13531v2_s80": {
+    "query": "What is the purpose of the latent variable y introduced in the proof?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.20666v4_s4": {
+    "query": "What are the two main reasons the authors focus on the domain of polite language?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.11103v2_s29": {
+    "query": "Which paper introduced the Mistral 7B model and what is its arXiv preprint number?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.02156v5_s69": {
+    "query": "What is the purpose of the comprehensive reference compiled in Table 14?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.10118v2_s32": {
+    "query": "Which paper introduced the VizWiz Grand Challenge for answering visual questions from blind people?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s323": {
+    "query": "What algorithm is used for small instances and how does it compute the upper bound?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.15888v5_s59": {
+    "query": "What does the scalar ratio in Eq. 41 indicate about the movement along the steering direction?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s21": {
+    "query": "How many papers are included in Paper2CodeBench and what criteria were used to select them?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.19590v3_s3": {
+    "query": "What are the main limitations of RLHF and RLVR that motivate the development of RLIF?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.12474v2_s7": {
+    "query": "What are the two main phases of the method for converting text input into interior layout design?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.17206v2_s16": {
+    "query": "What is the main limitation of MDLMs that soft-masking aims to address?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.15477v4_s3": {
+    "query": "What are the two main aspects of a reward model that affect the RLHF objective landscape?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.13356v2_s5": {
+    "query": "What are the main components of the CogniAlign framework and how is it evaluated?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.27246v2_s41": {
+    "query": "What innovations have enabled the expansion of LLM context windows from 512–2,048 tokens to up to 10M tokens?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.01191v2_s14": {
+    "query": "How does the Self-Harmony framework generate and evaluate answers from different perspectives?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07610v6_s74": {
+    "query": "Why did the authors choose to focus on zero-shot evaluation instead of few-shot prompting?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.23115v3_s18": {
+    "query": "What are the main components of the experiment section for evaluating RHYTHM?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25084v2_s22": {
+    "query": "Which datasets were used to evaluate the model in the experimental settings?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22613v2_s28": {
+    "query": "What does Lemma 5.1 state about training with epsilon-exploration and the outcome reward?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.24302v3_s29": {
+    "query": "What distinguishes the authors' lookahead tree search from prior approaches like ToT and MCTS-DPO?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.12927v3_s6": {
+    "query": "What are the key characteristics of effective feedback as defined by decades of scholarship?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07896v3_s34": {
+    "query": "What resources are provided to ensure the reproducibility of the experiments?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05592v3_s6": {
+    "query": "What are the three stages of the MathSmith framework's problem generation process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.21294v3_s60": {
+    "query": "What are the four criteria for evaluating persona adherence in an assistant's response?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26346v2_s45": {
+    "query": "What is the performance improvement of EDITREWARD over the base Qwen2.5-VL-7B-Inst on GenAI-Bench?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.04067v2_s4": {
+    "query": "What is the Error-Entropy Scaling Law and how does it relate to cross-entropy scaling?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.18374v2_s43": {
+    "query": "What are the two required response segments in the ShIOEnv environment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.10118v2_s73": {
+    "query": "What is the upper bound for the covering number of set P for epsilon in (delta, epsilon_0]?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17364v2_s31": {
+    "query": "What is the purpose of the Research Question Analysis section in the systematic literature review?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.05387v4_s33": {
+    "query": "What is the purpose of the CLUTRR benchmark and how does its distribution shift occur?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.12565v3_s22": {
+    "query": "How does mCLM's approach to decomposing molecules differ from previous methods that incorporate functional groups?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.05890v3_s45": {
+    "query": "Which additional LLMs were used alongside GPT-4.1-mini to assess the framework's generalizability?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.07068v2_s1": {
+    "query": "What are the two methods introduced for English text-to-UMR parsing in this paper?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22037v2_s62": {
+    "query": "How does model size affect cross-lingual transfer for synergistic and interfering language pairs?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.12522v2_s55": {
+    "query": "How is effective semantic diversity computed for natural language using Hard Thresholding?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13531v2_s11": {
+    "query": "What are the four criteria for increasing distinguishability in LLM-generated opinions when the question is fixed?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.08966v2_s15": {
+    "query": "How does SGM compute the plausibility score for a triple during self-supervised pre-training?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.13606v2_s42": {
+    "query": "What are the three scoring components used to evaluate candidate tokens in CBART's iterative decoding?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s406": {
+    "query": "What are the two distinct degradation patterns observed in tasks after complexity normalization?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.09580v2_s110": {
+    "query": "Which paper by Song et al. discusses relational inductive biases and graph networks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.18672v3_s54": {
+    "query": "What datasets were removed to investigate overfitting to GSM8K in the ablation experiment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.10941v2_s10": {
+    "query": "What is the model architecture based on and how is the input sequence represented?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.05890v3_s8": {
+    "query": "What is the main limitation in using LLMs to simulate survey respondents, and how does this work address it?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.15888v5_s55": {
+    "query": "What is the purpose of choosing the scalar strength μ in the perturbed logits setup?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.04584v4_s18": {
+    "query": "How many queries were sampled from each dataset for the classification analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.02156v5_s35": {
+    "query": "What specific tasks did the LLM Claude-4.0-Sonnet perform in preparing this manuscript?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01481v4_s57": {
+    "query": "What are the two equivalent perspectives on defining the Data Manifold in Intrinsic Space?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.24178v2_s54": {
+    "query": "What are the key steps in the classification procedure described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s426": {
+    "query": "Why does complete contamination require exponentially more training data than single-example contamination?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.05334v2_s18": {
+    "query": "What are the key techniques that have enabled advances in large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.13792v2_s8": {
+    "query": "How does ICE-ID differ from classical entity resolution datasets?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13109v5_s32": {
+    "query": "Which papers in the section focus on efficient LLM inference using attention mechanisms?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06084v2_s16": {
+    "query": "What are the validity and diversity percentages for SPECTRUM TUNING models in the zero-shot setting?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09790v2_s32": {
+    "query": "Which paper by Hupkes et al. provides a taxonomy and review of generalization research in NLP?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.23166v2_s68": {
+    "query": "How does ROSA's performance compare to training-based methods like SFT and RL on the MATH dataset?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.20278v3_s100": {
+    "query": "What is the final probability mass expression derived in Lemma F.24 for the multinomial distribution?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06084v2_s29": {
+    "query": "Which paper in the list focuses on modifying large language models for creative writing?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07896v3_s75": {
+    "query": "What are the main steps in the formal derivation of ACE attribution metrics?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.21735v3_s49": {
+    "query": "Which reference discusses the role of LLMs in automated assistants for software development?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22874v2_s21": {
+    "query": "Which reference discusses the detection of machine-generated text using probability curvature?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.12522v2_s32": {
+    "query": "What are the two neural diversity metrics used in the temperature sweeps with CODELLAMA-7B-INSTRUCT?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20498v3_s7": {
+    "query": "What is the key difference between the RPS approach and other inference-time alignment frameworks?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.12565v3_s24": {
+    "query": "Which sections describe the data collection process and training dataset statistics?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.02840v2_s27": {
+    "query": "Which 2025 paper introduces GEPA and its reflective prompt evolution approach?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.17871v3_s2": {
+    "query": "What is the main trade-off introduced by alignment tuning in large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22445v3_s133": {
+    "query": "Under what condition are variational codes equivalent to two-part codes?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.20278v3_s8": {
+    "query": "What is the key difference between k-coverage and canonical in-domain definitions?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.16640v4_s67": {
+    "query": "What happens to the attention probability when paths from token 1 to token i are cut in α-entmax?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.06060v2_s11": {
+    "query": "What was the F1 score for agreement between human evaluations and GPT-4o annotations?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20812v4_s28": {
+    "query": "What resources does the paper provide to support reproducibility of the experiments?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.18374v2_s40": {
+    "query": "What are the three components of an action tuple and their roles?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22212v2_s28": {
+    "query": "Which paper in the section introduces a model for text readability assessment in German using transfer learning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.12474v2_s4": {
+    "query": "What are the three main steps in the automated framework for generating and populating a scene layout?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02245v2_s52": {
+    "query": "What is the purpose of renormalizing p over nonempty buckets in the sampling scheme?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.17871v3_s5": {
+    "query": "How is the Branching Factor (BF) defined in terms of the effective set size and sequence length?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.05850v3_s55": {
+    "query": "What do the larger model experiments reveal about cross-lingual collapse in GRPO?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25184v2_s124": {
+    "query": "What are the two conditions for a claim to be classified as NOT_SUPPORTED?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.20666v4_s30": {
+    "query": "Which paper by Bai et al. focuses on training an assistant with reinforcement learning from human feedback?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22212v2_s5": {
+    "query": "What is the average Flesch Reading Ease score for simplifications in the SimpEvalDE dataset, and what CEFR level does it roughly correspond to?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.13474v3_s20": {
+    "query": "What are the three reward functions used to train the model for clinical diagnosis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.23115v3_s51": {
+    "query": "What are the two main categories of existing time series foundation models mentioned?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05077v2_s34": {
+    "query": "What were the specific uses of LLMs in the preparation of this paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.02387v4_s44": {
+    "query": "What is the specific output format required for the final verdict in the Chain-of-Rubrics evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17262v4_s28": {
+    "query": "What clustering quality and prediction benefit metrics are used to evaluate the methods in this study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09790v2_s17": {
+    "query": "What are the three discourse-level semantic-syntactic transformations studied, and how do they vary in context-dependence?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.10118v2_s2": {
+    "query": "What are the two main objectives of visual token pruning methods for MLLMs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.27246v2_s204": {
+    "query": "What must be done regarding chat_id tracking for preference information?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.07452v3_s19": {
+    "query": "What are the six styles used to transform jailbreak queries for safety evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s58": {
+    "query": "Which paper categories achieved the highest and lowest scores in the performance analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s25": {
+    "query": "What is the purpose of activating soft masking with probability p_sm according to Chen et al. (2023)?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24203v2_s2": {
+    "query": "What are the three main stages of RL progress for LLMs mentioned in the introduction?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s36": {
+    "query": "Which paper in the section focuses on a benchmark for graduate-level Q&A that is Google-proof?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.15477v4_s121": {
+    "query": "What reward models were used in the experiments described in Section 4.2?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01406v4_s30": {
+    "query": "Which paper by Joo Buolamwini and Timnit Gebru addresses intersectional accuracy disparities in gender classification?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.27623v3_s25": {
+    "query": "What are the trigger objects and target behaviors for the backdoor attacks in VAB-OmniGibson and EB-ALFRED?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.27246v2_s145": {
+    "query": "What are the two failure modes described for LLMs when updating knowledge?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07610v6_s90": {
+    "query": "What performance gap is observed between closed-source and open-source models in the Arrow Moving task?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s401": {
+    "query": "What does the analysis identify as the key failure mode for Gemini in the queen placement task?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.17053v2_s23": {
+    "query": "Which SQL constructs show the most significant performance gains for Struct-SQL according to the analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.04812v2_s30": {
+    "query": "Which paper by Gu et al. in 2024 focuses on scaling multimodal performance with instruction data?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13109v5_s10": {
+    "query": "How is cosine similarity between query vectors of adjacent tokens defined in the observation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24803v3_s20": {
+    "query": "How does TIMEOMNI-1 perform compared to GPT-4.1 on causal discovery tasks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07896v3_s50": {
+    "query": "What is the closed-form solution for the incremental weights Δ in the editing optimization problem?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25106v3_s60": {
+    "query": "What are the key constraints and goals for creating a personalized marathon training plan in this scenario?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s106": {
+    "query": "What are the two main age groups represented by color encodings in the visualisation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.07999v2_s27": {
+    "query": "What does Appendix E cover in the paper's structure?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s1": {
+    "query": "What are the two main reliability criteria for domain-specific knowledge graphs targeted by GraphMERT?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.09662v3_s60": {
+    "query": "Which iconic painting is Edvard Munch famous for, according to the text?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.13478v9_s9": {
+    "query": "How does NRR formalize the dual-condition relation for contextual identity and structural similarity?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.12565v3_s39": {
+    "query": "How many molecular structures and unseen blocks were used in the expanded testing of mCLM without synthesis guarantees?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.02524v2_s19": {
+    "query": "What does Theorem 4.1 state about the decomposition of (P)CFGs?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.15477v4_s19": {
+    "query": "What does Theorem 2 consider regarding the accuracy of reward models?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.01785v3_s43": {
+    "query": "How were human translators selected and compensated for evaluating GPT-4o translation quality?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.17621v2_s7": {
+    "query": "What is the purpose of AI-mediated oversight in AI alignment?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25184v2_s50": {
+    "query": "How have commercial search engines integrated LLMs into their search experiences?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.26346v2_s59": {
+    "query": "What characteristics are exhibited by images with high EditReward scores in the ShareGPT-4o-Image dataset?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.21740v3_s0": {
+    "query": "Which institutions are affiliated with the authors of this speech decoding model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24803v3_s77": {
+    "query": "What does Figure 12 illustrate about the RL training dynamics for TIMEOMNI-1?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.02817v2_s34": {
+    "query": "What features does the slide viewer interface provide for multilingual navigation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18485v3_s21": {
+    "query": "How does MeRF's performance vary with different types of motivations, and what adaptation occurs during reinforcement finetuning?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.21306v2_s44": {
+    "query": "What are the conditions for episode termination in the described environment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22445v3_s60": {
+    "query": "What is the defining capability of a universal prefix Turing machine?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.11826v2_s101": {
+    "query": "What is the purpose of the system prompt in the document task assignee selection code?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.17192v5_s15": {
+    "query": "What is the purpose of the configuration file generated by PaperCoder in the planning stage?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.15477v4_s88": {
+    "query": "What is the final simplified expression for the gradient of the RLHF objective with respect to θ_{:,x}?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20498v3_s46": {
+    "query": "What are the two strategies compared in Theorem 2 for selecting outputs based on a target preference direction?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20812v4_s22": {
+    "query": "How does the cross-all selection strategy compare to the best-reference strategy in terms of performance and reference requirements?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.10941v2_s33": {
+    "query": "Which paper by Shi et al. (2024) focuses on interactive point-based image editing?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.17001v5_s5": {
+    "query": "What are the three main contributions of the framework described in the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.06060v2_s53": {
+    "query": "What does Table 7 summarize about the datasets used in the experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s107": {
+    "query": "What are the practical challenges of learning through trial-and-error in mechanistic optimization under A1?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05282v5_s32": {
+    "query": "Which paper in the section focuses on prompt compression for efficient task-agnostic performance?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.08820v2_s32": {
+    "query": "What are the two requirements for the optimal question-response pair in the cultural adaptation problem?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22874v2_s22": {
+    "query": "Which paper introduces the LLM-DetectAIve tool for fine-grained machine-generated text detection?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s65": {
+    "query": "What is the absolute difference task and what does it evaluate?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.27623v3_s16": {
+    "query": "How is the backdoor dataset constructed in the BEAT method?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.04067v2_s21": {
+    "query": "What connection does the section establish between error-entropy and large language models?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.17192v5_s17": {
+    "query": "How is each file's code generated in the coding phase to ensure consistency?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05606v3_s22": {
+    "query": "What are the two main components of the Uni-CoT training paradigm?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15863v2_s32": {
+    "query": "What does Figure 5 demonstrate about PolySkill in the continual learning experiment?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s99": {
+    "query": "What theoretical guarantees does the framework provide regarding context safety and fairness?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.18577v4_s64": {
+    "query": "What are the two possible observed ratio values for data in the simplified linguistic observation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s84": {
+    "query": "What are the three components of the raw attention scores in the simulation, and what does each represent?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.21914v2_s7": {
+    "query": "What are the three generalization settings used to evaluate the model's ability to generalize beyond memorization?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.04517v2_s12": {
+    "query": "What is the purpose of applying the matrices M_A and M_F in the Transformer layer described?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.07087v2_s26": {
+    "query": "What three metrics are used to measure mapping accuracy in SQL-Exchange?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05077v2_s18": {
+    "query": "What are the accuracy improvements on MATH, GPQA, and GSM8K benchmarks from optimized two-model orchestrations?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.01822v2_s78": {
+    "query": "Why does the framework require an absolute scoring metric instead of relative scores?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.17262v4_s6": {
+    "query": "What challenges do recent proxy-based approaches face in predicting downstream task performance?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05077v2_s22": {
+    "query": "What is the key insight behind SLM-MUX's model selection mechanism?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.05850v3_s34": {
+    "query": "What is the title of the paper by Qiancheng Wang et al. published in 2025?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.10118v2_s3": {
+    "query": "What are the two distinct patterns of prompt-visual coupling identified in Figure 1(b)?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.09669v4_s22": {
+    "query": "What are the two scenarios in which Internal Confidence is used for adaptive inference?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.15557v2_s21": {
+    "query": "How was the TextDetoxEval dataset split to ensure fair comparison between LLM-as-a-judge and fine-tuning experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.13474v3_s4": {
+    "query": "What dataset is used to evaluate the proposed method for training LLMs in clinical decision-making?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.16164v2_s13": {
+    "query": "What is the scaling exponent α for human participants in the Zipf's law analysis, and what does it indicate about word frequency distribution?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25184v2_s1": {
+    "query": "How does LLM-driven summarization change the nature of manipulation compared to traditional search?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.17871v3_s19": {
+    "query": "What is the hypothesized reason for alignment tuning's pronounced effect on BF?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.22233v4_s25": {
+    "query": "What is the definition of relative branch depth in a solution trace?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25184v2_s4": {
+    "query": "What are the three main contributions of the Truthful Text Summarization pipeline?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.12565v3_s10": {
+    "query": "How many molecules were tokenizable using the full tokenization pipeline, and what was the resulting vocabulary size?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13531v2_s75": {
+    "query": "What evidence supports the benchmark's discriminant validity according to the experimental results?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.12553v2_s0": {
+    "query": "Who are the authors affiliated with Brown University in this paper?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s126": {
+    "query": "What is the main structural gap identified in current agent evaluation benchmarks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.21914v2_s67": {
+    "query": "What three types of input texts are used for generating sentence embeddings in the clustering process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.11876v4_s46": {
+    "query": "What are the three metrics defined for evaluating LLM editing in the ZsRE framework?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.16640v4_s21": {
+    "query": "What are the roles of ALiBi and NoPE heads in the proposed NAPE method?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.05890v3_s40": {
+    "query": "What does the section conclude about the relationship between ICR scores and CV scores?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.13329v2_s3": {
+    "query": "What are the two main challenges in reranking that EBCAR aims to address?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25369v2_s87": {
+    "query": "What is the main conflict presented in the scenario involving GPT-4o and the family's treatment of Type 1 diabetes?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05535v2_s6": {
+    "query": "How is collaborative task allocation formulated in this approach?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25106v3_s22": {
+    "query": "How does the process of claim extraction and deduplication work in this system?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.21740v3_s46": {
+    "query": "What is the purpose of applying contrastive learning in the modality alignment process?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13529v2_s31": {
+    "query": "What steps did the authors take to ensure reproducibility of their work?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22037v2_s3": {
+    "query": "What are the four main contributions of the study as listed in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.03441v3_s25": {
+    "query": "Which models were selected to evaluate the dataset across different dimensions?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.04812v2_s2": {
+    "query": "What are the limitations of dual-encoder architectures in multimodal embedding models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22037v2_s30": {
+    "query": "What distinguishes the authors' work from He et al. (2024) in multilingual scaling laws?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.01832v4_s17": {
+    "query": "What are the five critical dimensions evaluated in the MLP Memory experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.18672v3_s10": {
+    "query": "What are the main approaches researchers have used to predict downstream task performance from scaling laws?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.05069v3_s23": {
+    "query": "What are the peak efficiency gains of SWIREASONING over CoT according to Figure 2?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18703v3_s12": {
+    "query": "What advantage does the authors' training approach have over the method in reference [27]?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.02452v3_s20": {
+    "query": "What future research directions are suggested beyond classification tasks and prompting strategies?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01534v3_s76": {
+    "query": "What are the training parameters used for the BERT model in the response classification task?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22212v2_s8": {
+    "query": "How did the authors adapt the LENS rubric for LLM-based evaluation to address its limitations?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.15040v2_s18": {
+    "query": "What percentage of ChartQAPro's test set is used as validation data in the study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.01785v3_s10": {
+    "query": "What is the translation-based strategy for extending data quality scoring to multilingual settings?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01534v3_s42": {
+    "query": "What evidence from leaderboards and benchmarks suggests preference leakage is a real-world issue?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06378v2_s34": {
+    "query": "Which paper from 2025 discusses dense SAE latents as features?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.12522v2_s26": {
+    "query": "Which paper introduced BERT and in which conference was it presented?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.09580v2_s74": {
+    "query": "What parameters were used for the Qwen3-32B model in the GraphRAG indexing process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.02156v5_s49": {
+    "query": "How is the answer reward computed based on the difference in goal completion scores?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.17842v2_s8": {
+    "query": "What are the three primary action types in the user session action space?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.03772v3_s7": {
+    "query": "What is the name of the Greek variety spoken in Cargèse, Corsica, and when did it become extinct?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25149v2_s44": {
+    "query": "Which layers are more sensitive to FP4 quantization according to the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.20303v2_s9": {
+    "query": "What are the four categories of methods for improving LLM citations, and which ones are resource-intensive?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.12474v2_s34": {
+    "query": "What are the roles of the Outdoor Space Analysis Agent and the Entrance Analysis Agent?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22212v2_s18": {
+    "query": "What are the main limitations of DETECT according to the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.17519v3_s77": {
+    "query": "What are the three remote disabling or destruction mechanisms described for the tool?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.10941v2_s74": {
+    "query": "What is the purpose of Turn 3 in the second story generation sequence?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25149v2_s41": {
+    "query": "What training techniques were combined in the ablation study for the 1.2B model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.02840v2_s19": {
+    "query": "How does promptolution facilitate integration into existing LLM pipelines compared to frameworks like DSPy?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.19733v3_s11": {
+    "query": "What does an odds ratio greater than 1 indicate in the context of the RPT model evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.05890v3_s74": {
+    "query": "What are the answer choices provided in the prompt template for evaluating a person's typical behavior?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22445v3_s31": {
+    "query": "What is the purpose of using the parity task in evaluating Transformer models?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.13404v4_s43": {
+    "query": "What are the steps involved in aggregating and resolving schema suggestions after LLM returns them?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.13888v2_s11": {
+    "query": "What are the two main findings from the systematic study of math proof evaluator designs?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22874v2_s3": {
+    "query": "What is the primary purpose of the dataset introduced in this paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.08612v3_s0": {
+    "query": "What are the key components of the OTESGN model proposed for aspect-based sentiment analysis?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s238": {
+    "query": "How does the dynamic problem generation algorithm ensure a valid n-Queens problem instance?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01534v3_s31": {
+    "query": "What steps are taken to ensure reproducibility of the experiments?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s233": {
+    "query": "What hyperparameters were used for LoRA and GRPO during fine-tuning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24282v3_s27": {
+    "query": "Which Korean government agencies funded the research described in the acknowledgments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25184v2_s118": {
+    "query": "What is the purpose of the Claim Decomposition prompt described in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.22613v2_s77": {
+    "query": "What effect does KL regularization have on PG's performance across different data splits according to Figure 7?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s101": {
+    "query": "What are the three stages of the validation pipeline described in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24203v2_s53": {
+    "query": "What do the experiments in Figure 10 validate about OPMD and AsymRE?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.22774v2_s45": {
+    "query": "What are the main findings of the study regarding syntactic structures in spoken and written language?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.02623v6_s39": {
+    "query": "What specific tasks did the authors use ChatGPT for in their manuscript?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25184v2_s102": {
+    "query": "Why did the authors use synthetic strategic sources in their main experiments?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.23896v2_s10": {
+    "query": "What is the significance of including the EmotionAnalysisPlus dataset in AfriMTEB?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.21735v3_s36": {
+    "query": "What are the three components presented in each example of the GateLens framework analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05606v3_s43": {
+    "query": "Which reference discusses a dataset for camera pose estimation in outdoor environments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.11662v3_s109": {
+    "query": "What percentage of initially unsuccessful tasks become successful after corrective feedback in the SGV case?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s177": {
+    "query": "How does the proof ensure uniqueness for interleaved sequences?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20886v2_s52": {
+    "query": "How many participants and pairs were used in the Battleship board experiment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05535v2_s42": {
+    "query": "Which organizations provided funding for the research described in the acknowledgments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26314v3_s21": {
+    "query": "What are the two main steps in the LTO workflow?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.07634v3_s15": {
+    "query": "How does FRUGALRAG compare to baseline methods in terms of performance and search efficiency?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24803v3_s58": {
+    "query": "What are the three steps in the human-guided reasoning template for causality discovery?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.21735v3_s21": {
+    "query": "How does GateLens handle sensitive test data to address privacy concerns?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25184v2_s68": {
+    "query": "What are the three main results of Proposition 2 regarding policies and documents under the given assumptions?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07634v3_s25": {
+    "query": "Which paper by Shao et al. focuses on enhancing retrieval-augmented large language models with iterative synergy?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.08612v3_s30": {
+    "query": "What are the optimal dropout rates for the Rest14 and Laptop14 datasets according to the sensitivity analysis?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13531v2_s5": {
+    "query": "What are the two main approaches to evaluating LLM values mentioned in the text?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05592v3_s3": {
+    "query": "What are the three dimensions optimized by the reinforcement learning stage in MathSmith?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.04080v3_s15": {
+    "query": "What are the three baseline categories compared against PoLi-RL in the experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.07610v6_s28": {
+    "query": "Which papers in the section focus on spatial reasoning in vision-language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.13356v2_s81": {
+    "query": "What is the title of the paper by Jiao et al. published in 2025?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.15477v4_s53": {
+    "query": "What is an attainable accuracy subject to a specific output being ranked first?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s42": {
+    "query": "What are the six categories of case studies listed in Appendix B?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.13474v3_s16": {
+    "query": "What are the three main principles of clinical decision-making followed in the training objectives?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18841v2_s68": {
+    "query": "What are the key responsibilities of the Senior Amazon Operations Manager for the women's clothing line?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.04682v2_s13": {
+    "query": "How does TITOK select which tokens to use for training the target LoRA?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15614v2_s43": {
+    "query": "What does the cumulative entropy curve in HypoSpace measure, and what do steeper curves indicate?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.26314v3_s7": {
+    "query": "What is the default number of thinking steps in the latent reasoning model described?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05606v3_s15": {
+    "query": "What are the two reasoning branches integrated in the Uni-CoT framework?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.07658v3_s33": {
+    "query": "What are the main limitations of existing domain-specific benchmarks according to the related work?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.09790v2_s14": {
+    "query": "How is the transformation embedding v* predicted from a neutral embedding n* using the prototype p?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.21306v2_s37": {
+    "query": "Which paper from 2024 focuses on using large language models for few-shot clustering?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05282v5_s15": {
+    "query": "What are the two correction strategies used by the Multi-Perspective Self-Correction Engine?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02286v2_s1": {
+    "query": "What is the main limitation of existing methods for discovering safety vulnerabilities in LLMs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25106v3_s13": {
+    "query": "How did the study generate dynamic personalized contexts from user interactions?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.05077v2_s57": {
+    "query": "How is semantic consistency measured for open-ended generation on HUMANEVAL?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02286v2_s38": {
+    "query": "Which paper in the references discusses training LLMs to use search engines with reinforcement learning?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24210v2_s385": {
+    "query": "At which move does the model first make an error in solving the Tower of Hanoi problem?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s142": {
+    "query": "How does the data efficiency of T2 compare to A2 in retrieval tasks?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.16164v2_s20": {
+    "query": "What is the primary goal of exploring LLM ensembles in this study?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.10941v2_s36": {
+    "query": "Which conference published the paper on Multimodal C4 in 2023?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.21082v5_s33": {
+    "query": "Which authors published a paper on aligning language models to user opinions in 2023?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06823v2_s15": {
+    "query": "How is the maximum similarity between answer sentences and a citation calculated and categorized?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.04067v2_s43": {
+    "query": "What specific tasks did the authors use large language models for in preparing the manuscript?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.22233v4_s12": {
+    "query": "What are the two main experimental setups used to demonstrate EDU-PRM?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.03867v3_s24": {
+    "query": "How does model size affect gender bias in Qwen 2.5 models according to Figure 4?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06084v2_s156": {
+    "query": "What is the task definition for the novacomet_hypothesis model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.25106v3_s46": {
+    "query": "What are the standardized LLM and web search tools used across all agents in the comparison?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07896v3_s15": {
+    "query": "How is the importance score for a vector in the lth attention layer defined?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.21220v4_s55": {
+    "query": "How is the mean marginal difference calculated for tokens in an LLM response?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06084v2_s60": {
+    "query": "How long did training take for each model type on the four A100 GPUs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.02387v4_s7": {
+    "query": "What is the mathematical formulation for the generative reward model's probability of a judgment sequence?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.10118v2_s10": {
+    "query": "What does Lemma 1 provide under Assumption 1 for visual token pruning?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07634v3_s1": {
+    "query": "What is the main contribution of the FrugalRAG framework proposed in this paper?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.20584v2_s20": {
+    "query": "What are the five categories in the CPS coding framework and their main purposes?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.18374v2_s27": {
+    "query": "What is the main purpose of ShIOEnv as described in the conclusion?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.05639v2_s32": {
+    "query": "What are the main issues with the post-hoc MCQ construction method described?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.11103v2_s28": {
+    "query": "Which authors are listed for the paper 'Scaling instruction-finetuned language models' in 2022?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.11684v3_s41": {
+    "query": "In which two scenarios might MathFimer be less effective or unsuitable?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.01222v2_s3": {
+    "query": "What is the success rate of GPT-4o with BrowserUse on the WebDS benchmark?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.02817v2_s20": {
+    "query": "Which three LLMs were evaluated on downstream tasks using the MCIF benchmark?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.05890v3_s37": {
+    "query": "Which trait-only generation strategy performed best on the Schwartz survey according to the convergent validity results?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.05639v2_s59": {
+    "query": "What is the purpose of the Fictsheets system prompt in Stage 2?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s52": {
+    "query": "What are the key limitations of PAL and Logic-LM as tool-augmented reasoning methods?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18841v2_s59": {
+    "query": "What are the key considerations for writing a first-person ghost story according to the section?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13531v2_s52": {
+    "query": "What techniques and prompts are used in the AdAEM Framework for question exploration and optimization?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.05334v2_s20": {
+    "query": "What are the main limitations of using crowd-sourced data for analyzing user preferences?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s11": {
+    "query": "How does the system handle problems with multiple valid solutions during evaluation?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s152": {
+    "query": "What validation criteria are used to ensure sequences test multiplicative reasoning?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.18841v2_s52": {
+    "query": "What are the three concrete failure modes of reward-model exploitation observed in LongWriter-Zero during training?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.11165v2_s32": {
+    "query": "Which paper by Cannici et al. was presented at ECCV 2020?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.21396v2_s37": {
+    "query": "What was the prompt used to generate the 10 climate negotiation research topics?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.11876v4_s33": {
+    "query": "What is the title and year of the paper by Touvron et al. that introduces Llama 2?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.08612v3_s20": {
+    "query": "What are the average dependency distance values for the three datasets studied?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.09456v4_s6": {
+    "query": "What is the main limitation of existing backdoor attacks in VLMs according to the text?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22212v2_s26": {
+    "query": "Which paper by Alva-Manchego et al. discusses the suitability of automatic evaluation metrics for text simplification?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.21220v4_s43": {
+    "query": "What are the ROC AUC values for the model's confidence and MASJ-based estimates?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s60": {
+    "query": "What is the constant C in the gradient norm bound, and what does it depend on?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.18672v3_s27": {
+    "query": "How does sparsity affect performance in HumanEval and MBPP tasks at large active parameter counts?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.07885v3_s33": {
+    "query": "What are the two main families of approaches for LLM routing mentioned in the section?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.02524v2_s56": {
+    "query": "What are the production rules and probabilities for the non-terminal L1a in the ABC Grammar?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.13888v2_s93": {
+    "query": "How many points are awarded for a completely correct solution in the marking scheme?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.05387v4_s14": {
+    "query": "What are the four models evaluated in the experimental setup and what is their common training characteristic?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.05639v2_s38": {
+    "query": "What example illustrates duplicated answers from distinct questions in the filtering process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s182": {
+    "query": "What are the missing components in current multimodal and multi-agent benchmarks for evaluating adaptation?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.26314v3_s17": {
+    "query": "What is the consequence of removing KL regularization in LTO, and why is it necessary?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25369v2_s17": {
+    "query": "How do the authors elicit a ranking of values from a target model's action preferences?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.21294v3_s20": {
+    "query": "What are the main limitations identified in evaluating multilingual synthetic data quality?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.21396v2_s21": {
+    "query": "What method is used to validate hypotheses and what accuracy does it achieve in the pilot study?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.16301v3_s99": {
+    "query": "How does ReadAgent achieve efficient performance on QuALITY and NarrativeQA?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.13888v2_s114": {
+    "query": "What distinguishes a score of 5-6 from a score of 7 in the proof evaluation guidelines?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.05850v3_s11": {
+    "query": "How does the Target Word Ratio method assess language consistency in GRPO training?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.22445v3_s36": {
+    "query": "What is the main challenge in implementing a mapping analogous to zmap for a Transformer decoder?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.07321v2_s9": {
+    "query": "Which seven state-of-the-art LLMs were benchmarked in the ObfusQA evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.11103v2_s20": {
+    "query": "What does Table 4 show about the models' performance in many-shot inference?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13529v2_s1": {
+    "query": "What are the affiliations of the authors of the BARREL paper?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.13474v3_s1": {
+    "query": "What are the two main limitations of current LLM applications in clinical decision support?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.11165v2_s39": {
+    "query": "How does the EVA method compare to other event-representing methods in terms of accuracy and latency?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.06060v2_s20": {
+    "query": "What is the purpose of Latent Association Fine-tuning (LAFt) in the context of PII extraction?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.21396v2_s4": {
+    "query": "What are the four main contributions of the study on LLM-generated ideas?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05535v2_s18": {
+    "query": "How many low-level steps are involved in Task 2: Assemble Toy Car according to the plan hierarchy?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15614v2_s47": {
+    "query": "What are the main sources of limited hypothesis coverage identified in the failure mode decomposition?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.17364v2_s15": {
+    "query": "Which databases were targeted in the automated search method for the systematic review?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2502.01481v4_s17": {
+    "query": "How does approximation loss change with visible context length for a fixed pre-trained model during inference?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.00177v2_s6": {
+    "query": "What is the purpose of identifying attributes in the context of personalized language model responses?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.07658v3_s51": {
+    "query": "What are the six domain-specific subsets of M2D2 used to train GPT2-XL?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.17053v2_s77": {
+    "query": "What are the three levels of SQL complexity used to demonstrate Struct-SQL outputs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.07610v6_s24": {
+    "query": "What does the case study reveal about the impact of model scaling on spatial reasoning errors?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05535v2_s41": {
+    "query": "How does MICoBot's pH,t estimation respond to different human feedback in the user study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.17001v5_s18": {
+    "query": "Which models are evaluated for memory graph construction and information retrieval?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.08820v2_s65": {
+    "query": "What is the purpose of CulturalBench-Hard and how does it modify the original dataset?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2503.22233v4_s18": {
+    "query": "How does EDU sampling compare to HT sampling in terms of accuracy and token efficiency on the MATH and OLY test sets?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.09580v2_s52": {
+    "query": "How does the GraphMERT pipeline extract knowledge graph triples from the model?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.06378v2_s32": {
+    "query": "Which authors contributed to the paper 'Toy models of superposition' in 2022?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.18841v2_s32": {
+    "query": "What are the three key insights from the LongWriter-Zero experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06084v2_s58": {
+    "query": "Which benchmarks are used to evaluate general knowledge capabilities in the SPECTRUM TUNING study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.08646v2_s2": {
+    "query": "What are the two main categories of current approaches to mitigating false refusals in LLMs?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15614v2_s9": {
+    "query": "Why does coverage remain low even with high validity for peaked generators?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2505.13529v2_s90": {
+    "query": "What are the main limitations of the study's evaluation and training methods?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2508.05606v3_s62": {
+    "query": "What are the three data curation pipelines described for macro-level reasoning?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02524v2_s33": {
+    "query": "What are the two ways the authors test generalization to unlikely sequences in the nested parentheses PCFG?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16902v2_s29": {
+    "query": "Which authors published a paper on language models showing content effects on reasoning tasks in PNAS Nexus?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22037v2_s38": {
+    "query": "What are the five different R² metrics used to evaluate multilingual scaling laws?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.22774v2_s14": {
+    "query": "What are the two normalized corpus versions created to ensure comparability across speech and writing?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.05387v4_s15": {
+    "query": "What two forms of mutual information are traced in the study of generalization in deep language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.20666v4_s39": {
+    "query": "What are the main methods used for aligning large language models with human preferences?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2503.15904v4_s10": {
+    "query": "How many independent conversation sessions were initiated for each LLM in the story generation process?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.18577v4_s24": {
+    "query": "What is the main pretraining corpus used in this study and why is it suitable for evaluating filtering methods?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.05132v3_s12": {
+    "query": "What are the five research questions addressed in the experiments of this paper?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.04403v2_s23": {
+    "query": "Which open-source MLLMs are benchmarked in the study, and what is the judge model selected for response generation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06823v2_s18": {
+    "query": "How many political parties are targeted in Japan and the U.S. for the study's questions?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.05606v3_s39": {
+    "query": "What distinguishes the authors' approach from prior efficient-attention methods?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.12522v2_s64": {
+    "query": "What does the function f(N) described in the section do, and how does it operate?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.17871v3_s55": {
+    "query": "What models and tasks are compared in Figure 14 for OLMo-2?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.15681v3_s15": {
+    "query": "What are the three key technical aspects detailed for GenRecal's reproducibility?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16395v2_s24": {
+    "query": "What is the main purpose of OJBench as introduced in this work?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2504.12522v2_s39": {
+    "query": "What Python version and library are used to extract Abstract Syntax Trees?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2512.16301v3_s17": {
+    "query": "What are the two primary forms for instantiating the optimization of the agent in tool-call scenarios?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.17206v2_s78": {
+    "query": "What do the green-shaded cells in Figure 7 represent, and how is their intensity interpreted?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.06378v2_s43": {
+    "query": "Who were the participants in the study and why were they chosen?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.06060v2_s64": {
+    "query": "What are the two main steps involved in annotating PII in legal texts?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2512.17053v2_s34": {
+    "query": "What is the primary established approach for enabling reasoning in SLMs according to the Finetune-CoT paradigm?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07452v2_s35": {
+    "query": "What does the high precision and low recall in Patch-DP for GPT2-Large indicate about data leaks?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.03867v3_s30": {
+    "query": "How many gendered stereotypes does the study investigate, and what is their source?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s2": {
+    "query": "What percentage of top-tier machine learning conference papers in 2024 provided their code implementations?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2504.17192v5_s45": {
+    "query": "What were the three groups of repositories provided to annotators for evaluation?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.05541v2_s39": {
+    "query": "What is the average token length difference between rejected and chosen completions in the alignment case study?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.13109v5_s4": {
+    "query": "What are the main benefits of FreeKV's system-side optimizations for KV retrieval?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.18577v4_s30": {
+    "query": "What is the main limitation of DSIR mentioned in the experiment on the symbolic language corpus?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.22373v3_s13": {
+    "query": "How many crowdsourcing workers were recruited for the initial annotation stage in VisJudge-Bench?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.02245v2_s48": {
+    "query": "How are the experiential sub-batch and on-policy samples combined in the batch composition?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.15888v5_s26": {
+    "query": "Which paper introduced LoRA for parameter-efficient fine-tuning of large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2506.16640v4_s52": {
+    "query": "What does Proposition 3 demonstrate about representational collapse with α-entmax attention?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.05132v3_s17": {
+    "query": "How does optimal matching in SSFT affect reasoning length and performance compared to random matching?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.01406v4_s50": {
+    "query": "How does the generalization to feature classes like race and religion adapt the gender probability framework?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25184v2_s97": {
+    "query": "What metrics are used to measure correctness and fluency in the experiments?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.05026v3_s47": {
+    "query": "What ethical risk arises from curating a dialect-specific corpus, and what could be the consequence?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.22373v3_s75": {
+    "query": "What were the educational and approval rating requirements for annotator recruitment?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24203v2_s40": {
+    "query": "What is the KL-regularized objective function for policy optimization in the t-th iteration?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.15614v2_s6": {
+    "query": "What three properties are required for the diagnostic suite's hypothesis set?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.25992v3_s52": {
+    "query": "What does the reasoning length distribution in Figure 5 suggest about the performance gains from SRL?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2511.10985v2_s54": {
+    "query": "Which datasets have their query difficulty distributions by task category shown in the figures?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.27246v2_s58": {
+    "query": "What are the two thresholds used in Algorithm 3 for controlling loops?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.07896v3_s79": {
+    "query": "How does AcE derive the importance score I(v) using a first-order Taylor approximation?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2502.11684v3_s46": {
+    "query": "What are the three main components of the step decomposition method described in the appendix?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.25184v2_s90": {
+    "query": "What condition ensures that a deviation without effort still results in a strictly positive expected-utility gap?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.02286v2_s9": {
+    "query": "What is the fundamental challenge in training the attacker policy and how does dialogue tree rollout address it?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2507.07610v6_s228": {
+    "query": "What is the required format for the response to the mental animation question?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2508.09456v4_s25": {
+    "query": "Which paper by Ruichuan An et al. focuses on a personalized vision-language model?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2509.24803v3_s3": {
+    "query": "What are the two key limitations hindering the development of time series reasoning models (TSRMs)?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2507.15557v2_s38": {
+    "query": "Which paper introduces a method for low-rank adaptation of large language models?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2505.12565v3_s28": {
+    "query": "Which paper by Daniel J. Blair et al. focuses on automated iterative C(sp3)-C bond formation and was published in Nature in 2022?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2510.23896v2_s26": {
+    "query": "On how many languages does AfriE5 achieve the highest macro averages according to Figure 3?",
+    "type": "extractive",
+    "source": "text"
+  },
+  "2511.01191v2_s83": {
+    "query": "How does Self-Harmony compare to Majority Voting in terms of performance stability across rollout budgets for Qwen-4B-Base?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.04682v2_s67": {
+    "query": "What do the qualitative examples in Figure 5 illustrate about TiTOK's token selection?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2509.24210v2_s322": {
+    "query": "What are the two types of constraints defined in the optimization problem, and what do they ensure?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2506.21220v4_s19": {
+    "query": "How is the MASJ reasoning score collected and filtered for quality?",
+    "type": "abstractive",
+    "source": "text"
+  },
+  "2510.02245v2_s84": {
+    "query": "What are the average numbers of questions per mini-batch for each difficulty-masked training group?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24803v3_s39": {
+    "query": "How many samples are used for Stage 2 training in the Event-aware Forecasting task?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.17206v2_s84": {
+    "query": "Which k values perform best in the finetuned models according to Table 10?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.00685v2_s78": {
+    "query": "What are the performance improvements from reforming the communication graph in SELFORG on GSM8K and MMLU?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.13615v4_s34": {
+    "query": "What is the formula for the proportion of correct annotations retained after inter-annotator agreement?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20812v4_s35": {
+    "query": "How many images and questions are in the ChartMuseum test dataset according to Table 7?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.08105v4_s15": {
+    "query": "What is the average Exact Match score for GPT-4o on the AfriMGSM dataset according to Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.13615v4_s46": {
+    "query": "What does the ablation study in Table 10 reveal about removing perceiving or analyzing components in StaR training?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2509.03113v5_s35": {
+    "query": "What are the specific Rec and OCR scores for the 'ours' method on LLaVA-V1.5 in the MM-Vet evaluation?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.17306v2_s43": {
+    "query": "Which model has the highest silhouette score for English in Table 5, and what is its value?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.17262v4_s24": {
+    "query": "What are the mean and maximum prediction errors for the complete COD approach according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20812v4_s16": {
+    "query": "Which model achieves the highest accuracy on the InfographicVQA benchmark according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.25184v2_s136": {
+    "query": "What are the precision, recall, and F1-score values for the 'Our Method (TTS)' in the provided table?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.22373v3_s61": {
+    "query": "What proportion of the dataset consists of Analytical dashboards according to Table 5?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2504.08820v2_s88": {
+    "query": "Which culture shows the largest improvement for open-ended questions according to Table 19?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.08105v4_s38": {
+    "query": "What is the average accuracy improvement of MERLIN over the base model on AMERICASNLI?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.06084v2_s15": {
+    "query": "What is the main advantage of SPECTRUM TUNING over pretrained and instruction-tuned models in terms of diversity and validity?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2511.08113v3_s21": {
+    "query": "What is the exact-match accuracy for Qwen2.5-VL-7B under the direct inference setup on the COCO-Count dataset?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.11876v4_s21": {
+    "query": "What is the editing efficacy score of EAMET on the CounterFact dataset for LLaMA2-7B?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s209": {
+    "query": "What is the average accuracy of the Qwen3 (14B) model on the fibonacci sequence task?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.10941v2_s61": {
+    "query": "What is the impact of using camera prompt engineering on CLIP-I and DINO scores in Magicbrush?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.03772v3_s22": {
+    "query": "Which dialect had the highest agreement across all metrics according to the text?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.22373v3_s210": {
+    "query": "What does the scoring rubric for the Design Style dimension evaluate in multi-vis visualizations?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2508.06803v2_s21": {
+    "query": "What are the intensity scores and rationales for each agent's analysis of the false positive sample?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.19733v3_s55": {
+    "query": "What is the accuracy gain for in-domain tasks at the 600-step checkpoint in Math-RPT?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.04080v3_s44": {
+    "query": "What Rbase value yields the best performance in the sensitivity analysis, and what metrics support this?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.18502v3_s28": {
+    "query": "Which model component is most sensitive to compression according to the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.15681v3_s24": {
+    "query": "How does GenRecal's computational cost compare to other cross-tokenizer distillation methods in terms of FLOPs and training time?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.13329v2_s49": {
+    "query": "What is the nDCG@10 score for EBCAR on TREC2021 according to Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s345": {
+    "query": "What is the accuracy of the Qwen3 (4B) model on the Cryptarithmetic task according to Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.11876v4_s20": {
+    "query": "Which method produces the most aligned residual embeddings according to the misalignment scores in Table 3?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.10117v3_s40": {
+    "query": "What are the three key insights from the ablation study on scenario generation in MiCo?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.27246v2_s46": {
+    "query": "What are the three quality dimensions evaluated in the conversation quality assessment, and what do they measure?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.02286v2_s22": {
+    "query": "What is the Cohen's Kappa agreement between human and GPT-4o ratings in the evaluation setup?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.21294v3_s49": {
+    "query": "Which model variant achieved the highest average NLG performance for Indic languages in Table 14?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2503.15477v4_s125": {
+    "query": "What is the Spearman correlation between reward variance and increase in ground truth reward in Table 6?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.22445v3_s171": {
+    "query": "What is the learning rate and total training steps used with the Adam optimizer in this study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.16640v4_s108": {
+    "query": "What is the exact match accuracy of ASEntmax with RoPE at sequence length 128 according to Table 9?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.08646v2_s20": {
+    "query": "What is the average inference time per prompt for the ELS method on the Llama-3.1-8B-IT model?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.15888v5_s82": {
+    "query": "What is the average performance improvement of SVDecode over TaD on the Qwen2.5-7B model according to Table 12?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.07452v2_s11": {
+    "query": "What threshold percentiles are used to select high-scoring edges in the circuit discovery process?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.18577v4_s21": {
+    "query": "What is the largest data source by token count in Dolma v1.6, and what percentage does it contribute?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.23115v3_s71": {
+    "query": "How does GPU memory usage and training time change as sequence length increases in the RHYTHM model?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.01352v3_s13": {
+    "query": "Which reward model achieved the highest average performance in Table 1, and what was its score?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2504.04700v2_s40": {
+    "query": "What is the purpose of applying backdoor adjustment in the causal graph described?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.02524v2_s61": {
+    "query": "What is the average cosine similarity for MLP layers on sequences with subgrammar only when training from scratch?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.07068v2_s16": {
+    "query": "What are the highest AnCast, SMATCH, and SMATCH++ scores reported for the baseline on UMR v2.0, and which models achieved them?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.15614v2_s27": {
+    "query": "What are the three main limitations of LLMs in genetic interaction inference according to the text?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2508.01832v4_s26": {
+    "query": "What is the average performance score of MLP Memory across the nine general NLP tasks in Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.04682v2_s24": {
+    "query": "What are the performance metrics reported for the LaMP tasks in the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24282v3_s56": {
+    "query": "What were the recovery rates for each QT4 task type in the self-review experiment?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.18672v3_s65": {
+    "query": "How does increasing the token budget from 125B to 1T affect performance on TriviaQA and GSM8K according to Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.01191v2_s89": {
+    "query": "What is the Spearman Correlation percentage for Self-Harmony in the Not-Confident Correct quadrant according to Table 10?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.11662v3_s117": {
+    "query": "What are the evaluation metrics for MLLM verifier confidence scores before and after calibration?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.25992v3_s36": {
+    "query": "What is the batch size for GRPO and why is it set smaller than SRL?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.15040v2_s23": {
+    "query": "What is the accuracy of COGS on Visual-WebBench according to Table 3?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2504.17192v5_s49": {
+    "query": "What is the average percentage of papers with publicly available code across the three major machine learning conferences in 2024?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.07896v3_s57": {
+    "query": "What are the top tokens associated with the neuron fv29-5709 in Qwen3-8B according to the table?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.19862v2_s67": {
+    "query": "What is the average accuracy and token reduction for the 'First' truncation method across all datasets?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.04682v2_s59": {
+    "query": "What does Table 14 show about TITOK's performance compared to baselines in the Mistral 7B transfer setting?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.13531v2_s111": {
+    "query": "What was the percentage improvement in the Sanctity dimension according to the controlled experiment results?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.21396v2_s25": {
+    "query": "In the human evaluation, which dimensions showed statistically significant improvements when ideas were selected with validation processes?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.00685v2_s74": {
+    "query": "What are the two ways SELFORG can terminate, and how does the consensus threshold γ affect early stopping?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2506.05850v3_s56": {
+    "query": "What are the cross-lingual consistency percentages for OLMo-2-7B with GRPO on the Chinese dataset?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.07321v2_s11": {
+    "query": "What is the EM accuracy formula and what does the normalization process involve?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.22037v2_s31": {
+    "query": "How many experiments are conducted for the Capacity experiment type, and what are the language mixtures and scales used?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.27246v2_s56": {
+    "query": "What are the inputs to Algorithm 2 for generating user questions?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.07162v4_s16": {
+    "query": "Which model shows the strongest improvement in convincingness prediction when provided with discrete emotion categories?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.11684v3_s55": {
+    "query": "What were the performance gains on GSM8K and MATH after RL training with MathFimer-1.5B?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.24302v3_s49": {
+    "query": "How does LATR's generation speed compare to Stochastic Sampling during RL training?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.16301v3_s94": {
+    "query": "How does ReasoningBank's memory framework differ from methods that store only successful routines?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.23115v3_s24": {
+    "query": "Which models achieve the best Accuracy@1 on the Sapporo dataset according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s24": {
+    "query": "What is the performance drop for GPT-5 when tool usage is turned off, as shown in Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.02245v2_s78": {
+    "query": "What is the RAM usage for the replay buffer in the largest setup of ExGRPO?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.17519v3_s24": {
+    "query": "Which attack method achieves the highest toxicity score for Mistral-7B in the white-box category?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.13792v2_s21": {
+    "query": "How does the ICE-ID dataset differ from classical ER benchmarks in terms of geographic structure and kinship information?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2507.21914v2_s72": {
+    "query": "What is the effect of phase 2 fine-tuning on cosine similarity between the key token and prompts?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.25369v2_s63": {
+    "query": "How does CONFLICTSCOPE's approach to scenario generation differ from other datasets in ensuring value representation?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.05077v2_s17": {
+    "query": "What are the three benchmark datasets used in the experiments?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.07452v3_s24": {
+    "query": "Which defense strategy achieves the best safety performance for the Qwen2.5-3B-Instruct model on the Dolly-15K dataset?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.19590v3_s18": {
+    "query": "How does INTUITOR compare to GRPO in terms of rapid initial learning on GSM8K and MATH benchmarks?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s210": {
+    "query": "What is the accuracy and instruction-following performance of the Qwen3 (32B) model on the prime sequence task?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s410": {
+    "query": "Which tool provides the largest improvement for the Median task in the Easy Suite, and what is the improvement percentage?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.17001v5_s34": {
+    "query": "What is the purpose of the LLM prompts in the Memorize pipeline as described in Appendix A?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2502.12927v3_s29": {
+    "query": "What are the key differences in feedback quality between the 0.5B model and its SEFL-tuned version as shown in Table 4?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.20812v4_s57": {
+    "query": "What are the two complementarity patterns observed in expert combinations for minority-correct recovery cases?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2509.17844v3_s26": {
+    "query": "What is the Krippendorff's Alpha value for convincingness in the inter-annotator agreement analysis?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s414": {
+    "query": "What is the baseline Hard suite performance for Qwen2.5-7B and how much does it improve after SFT?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.23896v2_s69": {
+    "query": "How many translation pairs are retained for Swahili at the 0.75 threshold according to Table 6?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.19590v3_s54": {
+    "query": "What is the validation accuracy of the INTUITOR-GRPO method on MATH500 according to Table 8?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.02156v5_s20": {
+    "query": "What is the average inference length for Llama3.1-8B-AMPO and how does it compare to GRPO?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.23896v2_s5": {
+    "query": "How many task families are included in AfriMTEB-Full, and what are their general focuses?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2505.21082v5_s53": {
+    "query": "What is the accuracy of the RPM method on the GOQA dataset using the gpt-4o backbone?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.09456v4_s50": {
+    "query": "What are the peak GPU memory and training time per iteration for LlaVA and InternVL in clean versus IAG training?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.11684v3_s20": {
+    "query": "How does the FIM model's performance compare to prompt-based fill on the G+M dataset according to Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.07610v6_s82": {
+    "query": "What was the Cohen's kappa value for the Methodological error category in the inter-annotator agreement study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.02156v5_s18": {
+    "query": "What is the GOAL score for GPT-4o in the Self-Play setting on SOTOPIA-Hard according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.01785v3_s20": {
+    "query": "What is the average score for MuRater(E) in the 18-language configuration across all 11 tasks?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.11684v3_s51": {
+    "query": "What is the average PRM score for the G+M dataset after one iteration of MathFimer-7B?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.07634v3_s18": {
+    "query": "What does Table 4 indicate about the relationship between question difficulty and the number of search queries in FRUGALRAG?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2509.18577v4_s85": {
+    "query": "What does Table 8 show about the overlap of outliers between datasets with different block sizes?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.17306v2_s46": {
+    "query": "What does subtracting the jailbreak vector from harmful bypassed samples demonstrate about model behavior?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20303v2_s85": {
+    "query": "What is the ROUGE-1 recall for tokens from answers in evidence documents for NeoQA multi-hop instances?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.21294v3_s12": {
+    "query": "Which datasets were used for fine-tuning the LLAMA-3.1-8B and PHI4-14B models?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.15040v2_s24": {
+    "query": "Which reward model achieved the highest overall accuracy in the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.05069v3_s67": {
+    "query": "What are the GSM8K and MATH500 scores for the default asymmetric window size of 512 in the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.05282v5_s22": {
+    "query": "What is the accuracy of ASCoT on GSM8K at a compression ratio of 0.5 according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.21082v5_s17": {
+    "query": "What is the accuracy of RPM on the GOQA dataset according to Table 1?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.09456v4_s22": {
+    "query": "What are the PSNR, L1, and LPIPS values for RefCoco+ when using the reconstruction loss?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2503.15477v4_s129": {
+    "query": "What is the reward variance for the GRM-Gemma-2-2B reward model with the Pythia-2.8B SFT language model?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.21082v5_s21": {
+    "query": "What is the highest accuracy achieved on LaMP-2 using reasoning-augmented history as the source?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.17001v5_s48": {
+    "query": "Which LLM model achieves the highest granularity in vertices creation per contextual unit according to Table 17?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.12565v3_s67": {
+    "query": "What evidence suggests that Llama-3.2-3B-mCLM overfits compared to Qwen-2.5-3B-mCLM?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.07134v2_s4": {
+    "query": "What is the difference between lexical bridging and referential bridging as described in the section?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.02286v2_s55": {
+    "query": "Which guardrail model achieves the highest accuracy on HarmBench according to Table 5?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20886v2_s143": {
+    "query": "What is the decision function d_GW for the Guess Who? experiment and when does it switch from QUESTION to GUESS?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.08612v3_s21": {
+    "query": "What are the categories of baseline models used to evaluate the proposed ABSA model?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.11876v4_s63": {
+    "query": "How does the cost of key preparation steps change as the number of edited facts increases from 10 to 10,000?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.16301v3_s123": {
+    "query": "What is the critical methodological requirement for T2 evaluation in agentic AI adaptation?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.19733v3_s53": {
+    "query": "What are the relative Pass@1 improvements for the DeepSeek-R1-Distill-Qwen-1.5B model with GRPO on in-domain and out-of-domain tasks?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.19669v3_s24": {
+    "query": "What are the token savings percentages for DiffAdapt on Qwen3-4B and DS-R1-Qwen-7B according to Table 3?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.10118v2_s26": {
+    "query": "What performance does MoB achieve on Video-LLaVA-7B with a 93.4% token reduction rate according to Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.11826v2_s35": {
+    "query": "What are the two main interests of the user study as mapped to technology probe goals?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2505.12565v3_s55": {
+    "query": "What is the AUC performance of the ensemble model on the Pgp task according to Table 7?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20498v3_s69": {
+    "query": "What were the computational costs and memory usage for the baseline and RPS methods in the experimental setup?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2503.16553v4_s26": {
+    "query": "What are the two metrics used to evaluate predictive performance in the case studies, and what does each measure?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2506.11103v2_s45": {
+    "query": "What is the accuracy for the Many-shot (Ours) method on the Clinc task in the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.21220v4_s39": {
+    "query": "What are the ROC AUC values for Qwen 3B and Phi4-mini in the graduate education level category?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.10985v2_s90": {
+    "query": "What does the ablation study reveal about the necessity of combining all filtering steps in UltraMix?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2505.13529v2_s42": {
+    "query": "How does the BARREL method reduce length asymmetry between correct and incorrect responses?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.15863v2_s42": {
+    "query": "What are the five fully functional web applications featured in the WebArena benchmark?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.21914v2_s13": {
+    "query": "What are the cosine similarity values for the test prompt after Phase-1 and Phase-2 training?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.01406v4_s16": {
+    "query": "Which model achieves the highest CorEnc value for the Christian/Muslim distinction in religion?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.13888v2_s75": {
+    "query": "What performance difference is observed when using original human marking schemes compared to others in the O3 evaluator?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.13615v4_s24": {
+    "query": "What is the improvement in N-AMR for OS-Atlas-7B with StaR training compared to its zero-shot baseline?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.01182v2_s36": {
+    "query": "What are the performance differences between using BLEU and COMET for selecting translation paths according to Table 13?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2505.02156v5_s68": {
+    "query": "What are the three main criteria used to evaluate dialogues in Table 14?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.07068v2_s19": {
+    "query": "What are the AnCast, SMATCH, and SMATCH++ scores for the UD approach in the first example?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.02066v2_s18": {
+    "query": "What is the BLEU score for the Qwen3-8B model in Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20498v3_s60": {
+    "query": "What is the effect of increasing neighborhood size k on DPA and SFT performance according to Table 10?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2505.13531v2_s108": {
+    "query": "How many value-evoking questions were generated in the AdAEM Bench-MFT construction process?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2508.05282v5_s27": {
+    "query": "What are the two core modules validated in the ablation study of ASCoT on GSM8K?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.05850v3_s18": {
+    "query": "What is the effect of lowering top_p or temperature on accuracy and language reversion in Llama3.2-3B with GSM8k(UK)?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.19590v3_s52": {
+    "query": "How does increasing the rollout size affect the validation accuracy of the Qwen2.5-3B model on GSM8K and MATH500?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.09790v2_s53": {
+    "query": "Which model shows the most consistent cross-language effectiveness across all phenomena according to the quantitative analysis?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2503.15904v4_s16": {
+    "query": "What does a negative Averaged Male Proportion Deviation indicate about LLMs' gender bias?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.18577v4_s31": {
+    "query": "What is the average normalized accuracy for the prior-based method with the 1.5B model according to Table 3?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2507.01352v3_s16": {
+    "query": "Which model achieves the highest average performance score in Table 2, and what is that score?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.25084v2_s25": {
+    "query": "What are the pass@1 and pass@3 scores for the SFT-and-RL method in the ablation study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.00177v2_s17": {
+    "query": "How many race-related latents were selected for the 2B and 9B model variants after manual inspection?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.05087v3_s38": {
+    "query": "Which model and fine-tuning method achieved the highest average accuracy in centralized learning according to Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24282v3_s35": {
+    "query": "What is the purpose of SimuHome's device interface design?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2508.18672v3_s46": {
+    "query": "What learning rate produced the most stable training for models with 16 and 32 experts in the sweep?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2503.22233v4_s58": {
+    "query": "Which PRM model achieved the highest accuracy on the GSM8K dataset for the 72B size?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.22037v2_s40": {
+    "query": "What learning rate scheduler and optimizer are used in the pretraining experiments?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.17001v5_s49": {
+    "query": "Which LLM configuration achieved the highest memory construction speed in the proposed QA pipeline?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.04403v2_s8": {
+    "query": "What is the total number of samples in the RMS Dataset and which category has the highest ratio?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2512.13478v9_s36": {
+    "query": "What are the Turn 1 entropy values for Baseline and NRR-lite models according to Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.02286v2_s63": {
+    "query": "What is the average attack success rate for DIALTREE on closed-source models according to Table 10?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.24302v3_s44": {
+    "query": "How does LATR's performance compare to RDS and EPTree across GRPO and DAPO algorithms?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.20584v2_s69": {
+    "query": "What are the AIC, BIC, and log-likelihood values from the GLMM results table?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2510.27246v2_s155": {
+    "query": "What is the primary purpose of the plan described in the table for evaluating LLMs?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2510.05132v3_s36": {
+    "query": "Which model achieves the highest performance on the AIME 2024 task according to Table 4?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2511.07162v4_s18": {
+    "query": "Which model shows the best overall performance in the joint prediction of appraisals and convincingness?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.23115v3_s25": {
+    "query": "What improvement in MRR does RHYTHM achieve over the best baseline according to the text?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2506.06060v2_s26": {
+    "query": "What are the coverage rate and efficiency for Qwen1-8B using the generalized prefix set Set(SUP(Pc)) without LAFt?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.08105v4_s40": {
+    "query": "What prompt template is used for Gemma 2 backbone in mathematical reasoning tasks?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s236": {
+    "query": "How does the solution density change as n increases, and what does this imply for search strategies?",
+    "type": "abstractive",
+    "source": "text-table"
+  },
+  "2502.13606v2_s26": {
+    "query": "What is the prediction accuracy for the Original condition in the OWFA region according to Table 2?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2502.17364v2_s25": {
+    "query": "What variables are included in the final data extraction template for this study?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2509.24210v2_s373": {
+    "query": "What is the accuracy and instruction-following percentage for the Qwen3 (14B) model with AWQ quantization on the Modular Systems task?",
+    "type": "extractive",
+    "source": "text-table"
+  },
+  "2505.21396v2_s16": {
+    "query": "What does Table 3 indicate about the impact of metadata on feasibility and expected effectiveness in human evaluation?",
+    "type": "extractive",
+    "source": "text-table"
+  }
+}

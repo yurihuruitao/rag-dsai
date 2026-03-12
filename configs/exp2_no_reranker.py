@@ -23,7 +23,7 @@ USE_RERANKER = False
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
 RERANK_TOP_N = 3
 
-PDF_DIR = "bench_pdf"
+PDF_DIR = "ourbench/pdf"
 
 # chunk_strategy can be "sentence", "paragraph", or "character"
 CHUNK_STRATEGY = "sentence"
@@ -35,8 +35,8 @@ BM25_TOP_K = 5
 
 CHAT_MEMORY_TOKEN_LIMIT = 3000
 
-BENCH_QUERIES = "openragbench/pdf/arxiv/queries.json"
-BENCH_ANSWERS = "openragbench/pdf/arxiv/answers.json"
+BENCH_QUERIES = "ourbench/Q&A/queries_filtered.json"
+BENCH_ANSWERS = "ourbench/Q&A/answers_filtered.json"
 BENCH_OUTPUT = f"results/bench_{EXP_NAME}.json"
 EVAL_OUTPUT = f"results/eval_{EXP_NAME}.json"
 

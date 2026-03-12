@@ -22,6 +22,8 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from rank_bm25 import BM25Okapi
 from llama_index.core.retrievers import BaseRetriever
 from llama_index.core.schema import NodeWithScore, QueryBundle
+from llama_index.readers.file import PyMuPDFReader
+
 
 
 # ===== BM25 检索器 =====
@@ -96,8 +98,11 @@ def init_settings(config):
 # ===== 文档加载 =====
 def load_documents(pdf_dir):
     """从 PDF 目录加载所有文档（PyMuPDF + 多进程）"""
-    reader = SimpleDirectoryReader(input_dir=pdf_dir)
-    documents = reader.load_data(num_workers=8, show_progress=True)
+    reader = SimpleDirectoryReader(
+        input_dir=pdf_dir,
+        file_extractor={".pdf": PyMuPDFReader()}
+    )
+    documents = reader.load_data(num_workers=1, show_progress=True)
 
     # 清理非法 surrogate 字符，防止 UTF-8 编码报错
     for doc in documents:
