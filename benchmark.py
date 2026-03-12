@@ -132,6 +132,8 @@ def run_benchmark(args):
     query_ids = list(queries.keys())
     if args.limit:
         query_ids = query_ids[: args.limit]
+        
+    global_index_map = {qid: i + 1 for i, qid in enumerate(query_ids)}
 
     # 断点续传：加载已有结果，跳过已完成的查询
     existing_results = []
@@ -228,8 +230,8 @@ def run_benchmark(args):
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
         future_to_qid = {
-            executor.submit(process_query, i, qid): (i, qid)
-            for i, qid in enumerate(query_ids)
+            executor.submit(process_query, global_index_map[qid], qid): (global_index_map[qid], qid)
+            for qid in query_ids
         }
 
         with tqdm(total=total, desc="Benchmark") as pbar:

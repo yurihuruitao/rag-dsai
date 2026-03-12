@@ -26,6 +26,26 @@ pip install -r requirements.txt
 
 ## 使用流程
 
+### 🚀 一键运行完整评测流水线
+
+我们提供了一个串联脚本 `run_pipeline.py`，可以一键执行：**构建索引 -> Benchmark测试 -> 模型打分评测**的完整流程：
+
+```bash
+# 基础用法：只需要指定配置文件
+python run_pipeline.py --config configs/exp1_baseline.py
+
+# 进阶用法：支持限制条数、并发数、强制重建索引等
+python run_pipeline.py --config configs/exp1_baseline.py \
+    --rebuild \
+    --limit 10 \
+    --workers 16 \
+    --no-resume
+```
+
+---
+
+如果你想**分步进行调试和执行**，请参考以下单步说明：
+
 ### 1. 下载测试 PDF
 
 从 OpenRAGBench 下载 benchmark 所需的 PDF 文件：
@@ -85,6 +105,7 @@ python evaluate.py --config configs/exp1_baseline.py --workers 8
 
 ```text
 ├── rag.py              # 核心模块：PDF 加载、索引、混合检索、重排序
+├── run_pipeline.py     # 完整流水线 (一键构建、测试、打分)
 ├── build_index.py      # 构建向量索引
 ├── benchmark.py        # Benchmark 自动测试
 ├── evaluate.py         # LLM 自动评分

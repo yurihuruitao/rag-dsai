@@ -1,7 +1,12 @@
 """底层模块：PDF加载、索引管理、混合检索、重排序"""
 
 import os
+import logging
 import faiss
+
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("llama_index").setLevel(logging.WARNING)
+logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
 
 from llama_index.core import (
     SimpleDirectoryReader,

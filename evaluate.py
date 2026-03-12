@@ -9,6 +9,9 @@ import os
 import types
 import importlib.util
 import threading
+import logging
+
+logging.getLogger("httpx").setLevel(logging.WARNING)
 
 
 def load_custom_config(config_path):
