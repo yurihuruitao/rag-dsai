@@ -6,3 +6,12 @@ llama-index-vector-stores-faiss
 faiss-cpu
 rank_bm25
 sentence-transformers
+python-dotenv
+openai
+tqdm
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+PyMuPDF

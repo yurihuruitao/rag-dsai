@@ -12,7 +12,9 @@ OpenRAGBench 完整测试流水线脚本
 import argparse
 import subprocess
 import sys
+from dotenv import load_dotenv
 
+load_dotenv() 
 def main():
     parser = argparse.ArgumentParser(description="完整运行 RAG 评测流水线")
     parser.add_argument("--config", type=str, required=True, help="自定义配置文件路径")

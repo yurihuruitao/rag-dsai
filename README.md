@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ```bash
 # 基础用法：只需要指定配置文件
 python run_pipeline.py --config configs/exp1_baseline.py
-
+python run_pipeline.py --config configs/exp5_chunk256.py
 # 进阶用法：支持限制条数、并发数、强制重建索引等
 python run_pipeline.py --config configs/exp1_baseline.py \
     --rebuild \
