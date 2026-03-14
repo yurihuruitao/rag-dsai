@@ -1,0 +1,54 @@
+# configs/exp8_glm.py — GLM-4-Plus via Zhipu AI API, reusing baseline index
+import os
+
+GLM_API_KEY = os.environ.get("GLM_API_KEY", "")
+GLM_BASE_URL = "https://open.bigmodel.cn/api/paas/v4/"
+
+# Used by rag.py init_settings (generic override)
+API_KEY = GLM_API_KEY
+API_BASE_URL = GLM_BASE_URL
+
+# Still needed by evaluate.py (uses deepseek-reasoner as judge)
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
+
+MODELS = {
+    "glm-4-plus": "glm-4-plus",
+}
+DEFAULT_MODEL = "glm-4-plus"
+
+EMBEDDING_MODEL = "BAAI/bge-m3"
+EMBEDDING_DIM = 1024
+
+USE_RERANKER = True
+RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
+RERANK_TOP_N = 3
+
+PDF_DIR = "ourbench/pdf"
+
+# Experiment settings — reuse baseline's vector store
+EXP_NAME = "glm"
+INDEX_SOURCE_EXP = "baseline"
+STORAGE_DIR = f"storage/{INDEX_SOURCE_EXP}"
+
+CHUNK_STRATEGY = "sentence"
+CHUNK_SIZE = 512
+CHUNK_OVERLAP = 50
+
+VECTOR_TOP_K = 5
+BM25_TOP_K = 5
+
+CHAT_MEMORY_TOKEN_LIMIT = 3000
+
+BENCH_QUERIES = "ourbench/Q&A/queries_filtered.json"
+BENCH_ANSWERS = "ourbench/Q&A/answers_filtered.json"
+BENCH_OUTPUT = f"results/bench_{EXP_NAME}.json"
+EVAL_OUTPUT = f"results/eval_{EXP_NAME}.json"
+
+SYSTEM_PROMPT = """You are a professional document QA assistant. Answer the user's question based on the retrieved document content.
+
+Requirements:
+1. Answer strictly based on the provided document content, do not fabricate information
+2. If there is no relevant information in the documents, clearly inform the user
+3. Keep answers well-structured, use bullet points when necessary
+4. Answer in English"""

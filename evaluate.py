@@ -3,6 +3,8 @@ import argparse
 import concurrent.futures
 import re
 from tqdm import tqdm
+from dotenv import load_dotenv
+load_dotenv()
 from openai import OpenAI
 
 import os

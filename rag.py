@@ -66,9 +66,11 @@ def init_settings(config):
     if model not in config.MODELS:
         raise ValueError(f"未知模型: {model}，可选: {list(config.MODELS.keys())}")
 
+    api_key = getattr(config, "API_KEY", None) or config.DEEPSEEK_API_KEY
+    api_base = getattr(config, "API_BASE_URL", None) or config.DEEPSEEK_BASE_URL
     Settings.llm = OpenAILike(
-        api_key=config.DEEPSEEK_API_KEY,
-        api_base=config.DEEPSEEK_BASE_URL,
+        api_key=api_key,
+        api_base=api_base,
         model=config.MODELS[model],
         is_chat_model=True,
     )

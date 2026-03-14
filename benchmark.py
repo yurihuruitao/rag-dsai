@@ -8,6 +8,8 @@ import json
 import time
 import os
 import importlib.util
+from dotenv import load_dotenv
+load_dotenv()
 import types
 import concurrent.futures
 import threading
