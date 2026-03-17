@@ -5,3 +5,4 @@ __pycache__/
 bench_pdf/
 ourbench/pdf/
 .env
+*.log
