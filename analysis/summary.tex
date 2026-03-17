@@ -14,7 +14,7 @@
        for Retrieval-Augmented Generation}}
 
 \author{RAG Evaluation Study\\[2pt]
-        \small Evaluated on a custom QA benchmark ($n=821$ queries, 85 papers)}
+        \small Evaluated on a custom QA benchmark ($n=821$ queries, 500 papers)}
 
 \date{}
 
@@ -39,7 +39,7 @@ overall quality.
 %% ─── 1. Setup ────────────────────────────────────────────────────────────────
 \section{Experimental Setup}
 
-The \textbf{baseline} pipeline indexes 85 arXiv PDFs with
+The \textbf{baseline} pipeline indexes 500 arXiv PDFs with
 \textit{SentenceSplitter} (chunk size 512, overlap 50), builds a hybrid
 FAISS\,+\,BM25 index (top-$k{=}5$ each), fuses results with
 \textit{QueryFusionRetriever}, re-ranks with
