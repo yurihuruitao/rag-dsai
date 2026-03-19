@@ -41,8 +41,8 @@ plt.rcParams.update({
 })
 
 _HERE       = os.path.dirname(os.path.abspath(__file__))
-FIGURES_DIR = os.path.join(_HERE, "figures")
-STATS_JSON  = os.path.join(_HERE, "stats_detailed.json")
+FIGURES_DIR = os.path.join(_HERE, "output", "figures")
+STATS_JSON  = os.path.join(_HERE, "output", "stats_detailed.json")
 
 # Colour palette (colourblind-safe)
 PALETTE = {

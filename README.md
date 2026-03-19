@@ -1,136 +1,138 @@
-# RAG 文档问答系统
+# RAG 文档问答评测系统
 
-基于 LlamaIndex 的 PDF 文档检索增强生成（RAG）系统，支持向量检索 + BM25 混合检索 + 重排序。
+基于 LlamaIndex 的 PDF 文档检索增强生成（RAG）评测系统，支持向量检索 + BM25 混合检索 + 重排序，用于比较不同分块策略和检索配置的效果。
 
 ## 环境准备
 
 ```bash
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 配置
+在根目录创建 `.env` 文件，填入 API Key：
 
-实验配置文件存放在 `configs/` 目录下（例如 `configs/exp1_baseline.py`）。每个实验拥有独立的配置，支持动态调整重排序模型、分块策略等。
-
-关键参数说明：
-
-| 参数 | 说明 | 示例 |
-| --- | --- | --- |
-| `EXP_NAME` | **必填**。实验名称，如 `"baseline"`。系统会自动生成对应的存储路径 `storage/{EXP_NAME}` | `"baseline"` |
-| `INDEX_SOURCE_EXP` | **选填**。如果只想复用其他实验建好的索引库（例如跨模型评测同一批文本），设置为该实验的名称 | `"baseline"` |
-| `CHUNK_STRATEGY` | 文本切块策略，支持 `"sentence"`, `"paragraph"`, 或 `"token"` | `"Sentence"` |
-| `USE_RERANKER` | 是否开启重排序模型 (`True` 或 `False`) | `True` |
-| `DEEPSEEK_API_KEY` | DeepSeek API 密钥 | `sk-xxx` |
-| `EMBEDDING_MODEL` | Embedding 模型 | `BAAI/bge-m3` |
-| `RERANK_MODEL` | 重排序模型 | `BAAI/bge-reranker-v2-m3` |
-
-### 文本分块策略 (CHUNK_STRATEGY)
-
-系统目前在 `rag.py` 中实现了三种不同的文本切分（Chunking）策略，以适配不同的检索需求：
-
-1. **`"sentence"`**（默认策略）：
-   - **代码实现**：使用 LlamaIndex 的 `SentenceSplitter`。
-   - **策略说明**：优先按照单句边界进行文本切分。它会在满足 `CHUNK_SIZE` 和 `CHUNK_OVERLAP` 长度限制的前提下，尽量保证一句话的完整性，适合大多数常规文本检索场景。
-
-2. **`"paragraph"`**：
-   - **代码实现**：使用 `SentenceSplitter` 并指定强制段落分隔符 `paragraph_separator="\n\n"`。
-   - **策略说明**：优先按照段落（连续两个换行符）进行文本分块。这种策略能够最大程度保留单个段落上下文的连贯性，对于排版规范、段落逻辑严密（如 PDF 论文）的文档非常有效。
-
-3. **`"token"`**：
-   - **代码实现**：使用 LlamaIndex 的 `TokenTextSplitter`，以空格 `separator=" "` 为主要切分符，换行符 `backup_separators=["\n"]` 为备用切分符。
-   - **策略说明**：严格按照 Token（或词元边界）进行硬切分。这种方式能最精确地控制每个分块的大小上限，但在切分时可能会破坏句子的物理结构甚至截断语义。
-
-## 使用流程
-
-### 🚀 一键运行完整评测流水线
-
-我们提供了一个串联脚本 `run_pipeline.py`，可以一键执行：**构建索引 -> Benchmark测试 -> 模型打分评测**的完整流程：
-
-```bash
-# 基础用法：只需要指定配置文件
-python run_pipeline.py --config configs/exp1_baseline.py
-python run_pipeline.py --config configs/exp5_chunk256.py
-# 进阶用法：支持限制条数、并发数、强制重建索引等
-python run_pipeline.py --config configs/exp1_baseline.py \
-    --rebuild \
-    --limit 10 \
-    --workers 16 \
-    --no-resume
+```env
+DEEPSEEK_API_KEY=your-deepseek-api-key
+GLM_API_KEY=your-glm-api-key   # 仅 exp8_glm 需要
 ```
 
----
-
-如果你想**分步进行调试和执行**，请参考以下单步说明：
-
-### 1. 下载测试 PDF
-
-从 OpenRAGBench 下载 benchmark 所需的 PDF 文件：
+下载测试 PDF（一次性，下载到 `ourbench/pdf/`）：
 
 ```bash
-python download_pdfs.py
+python download/download_pdfs.py
 ```
 
-PDF 文件将保存到 `ourbench/pdf/` 目录。
+## 快速开始
 
-### 2. 构建向量索引
-
-将 PDF 文档解析、分块并根据指定的配置文件构建 FAISS 向量索引：
+### 一键运行完整流水线
 
 ```bash
-python build_index.py --config configs/exp1_baseline.py
+python pipeline/run_pipeline.py --config configs/exp1_baseline.py
 ```
 
-如需**重建索引**（删除旧索引后重新构建）：
+支持的参数：
 
 ```bash
-python build_index.py --config configs/exp1_baseline.py --rebuild
+python pipeline/run_pipeline.py --config configs/exp1_baseline.py \
+    --rebuild       # 强制重建索引
+    --limit 10      # 只测前 10 条（快速验证）
+    --workers 16    # 并发线程数
+    --no-resume     # 不使用断点续传，从头开始
 ```
 
-索引文件保存在 `storage/` 目录。
-
-### 3. 运行 Benchmark 测试
-
-使用 OpenRAGBench 数据集对该配置进行自动问答评测：
+### 分步执行
 
 ```bash
-# 完整测试
-python benchmark.py --config configs/exp1_baseline.py
+# 1. 构建向量索引
+python pipeline/build_index.py --config configs/exp1_baseline.py [--rebuild]
 
-# 只测前 10 条（快速验证）
-python benchmark.py --config configs/exp1_baseline.py --limit 10
+# 2. 运行问答测试
+python pipeline/benchmark.py --config configs/exp1_baseline.py [--limit 10] [--workers 8]
 
-# 指定并发数和输出路径（默认自动保存为 results/bench_{EXP_NAME}.json）
-python benchmark.py --config configs/exp1_baseline.py --workers 4
+# 3. LLM 评分
+python pipeline/evaluate.py --config configs/exp1_baseline.py [--workers 8]
+
+# 无 RAG 基准对照
+python pipeline/no_rag_bench.py --config configs/exp1_baseline.py
 ```
 
-> **断点续传**：默认开启。如果测试中断，重新运行同样的命令即可自动跳过已完成的查询，继续测试剩余部分。如需从头开始，加 `--no-resume`。
-
-结果保存到 `bench_results.json`。
-
-### 4. 评分评测
-
-使用 DeepSeek 对 RAG 回答进行自动打分（0-10 分）：
+### 统计分析
 
 ```bash
-python evaluate.py --config configs/exp1_baseline.py --workers 8
+python analysis/stats_analysis.py   # 生成统计摘要
+python analysis/plot_results.py     # 生成可视化图表
 ```
 
-评测完成后会输出平均得分，结果默认保存到 `results/eval_{EXP_NAME}.json`。
+输出到 `analysis/output/`。
 
 ## 项目结构
 
-```text
-├── rag.py              # 核心模块：PDF 加载、索引、混合检索、重排序
-├── run_pipeline.py     # 完整流水线 (一键构建、测试、打分)
-├── build_index.py      # 构建向量索引
-├── benchmark.py        # Benchmark 自动测试
-├── evaluate.py         # LLM 自动评分
-├── download_pdfs.py    # 下载测试 PDF
-├── configs/            # 存放各个实验的配置文件
+```
+rag-dsai/
+├── pipeline/               # 核心流程脚本
+│   ├── rag.py              # 底层模块：加载、索引、混合检索、重排序
+│   ├── build_index.py      # 构建 FAISS 向量索引
+│   ├── benchmark.py        # 自动问答测试
+│   ├── evaluate.py         # LLM 自动打分（0-10 分）
+│   ├── run_pipeline.py     # 一键运行完整流水线
+│   └── no_rag_bench.py     # 无 RAG 基准对照
+├── configs/                # 实验配置文件
 │   ├── exp1_baseline.py
 │   └── ...
-├── requirements.txt    # 依赖列表
-├── ourbench/           # 测试数据集 (PDFs和Q&A)
-├── storage/            # 向量索引存储 (按实验分组)
-└── results/            # Benchmark 和评测输出 (按实验分组)
+├── analysis/               # 统计分析与可视化
+│   ├── stats_analysis.py   # Wilcoxon 检验、Cohen's d、置信区间
+│   ├── plot_results.py     # 生成论文质量图表
+│   └── output/             # 生成的 CSV、JSON、图表
+├── tests/                  # 测试脚本
+│   ├── check_env.py        # 环境完整性检查
+│   └── test_run.py         # 端到端运行测试
+├── download/               # PDF 下载工具
+├── ourbench/               # 测试数据集
+│   ├── Q&A/                # 821 条查询 + 标准答案
+│   └── pdf/                # 500 篇论文 PDF
+├── storage/                # FAISS 索引（按实验分目录）
+├── results/                # Benchmark 和评测输出
+├── logs/                   # 运行日志
+├── .env                    # API Keys（不提交到 git）
+└── requirements.txt
+```
+
+## 实验配置
+
+| 配置文件 | 实验名 | 关键差异 |
+|----------|--------|----------|
+| `exp1_baseline.py` | `baseline` | Sentence 分块，chunk_size=512，开启重排序 |
+| `exp2_no_reranker.py` | `no_reranker` | 同 baseline，关闭重排序；复用 baseline 索引 |
+| `exp3_token.py` | `token` | Token 分块策略 |
+| `exp4_paragraph.py` | `paragraph` | Paragraph 分块策略 |
+| `exp5_chunk256.py` | `chunk256` | 更小分块，chunk_size=256 |
+| `exp6_chat_model.py` | `chat_model` | 使用 deepseek-chat；复用 baseline 索引 |
+| `exp7_chunk1024.py` | `chunk1024` | 更大分块，chunk_size=1024 |
+| `exp8_glm.py` | `glm` | 使用 GLM-4-Plus（智谱 AI）；复用 baseline 索引 |
+
+### 关键配置参数
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| `EXP_NAME` | 实验名称，决定索引和结果文件的路径 | — |
+| `CHUNK_STRATEGY` | 分块策略：`"sentence"` / `"paragraph"` / `"token"` | `"sentence"` |
+| `CHUNK_SIZE` / `CHUNK_OVERLAP` | 分块大小 / 重叠 token 数 | `512` / `50` |
+| `VECTOR_TOP_K` / `BM25_TOP_K` | 向量检索 / BM25 检索各取 top-k | `5` / `5` |
+| `USE_RERANKER` | 是否启用重排序模型 | `True` |
+| `RERANK_TOP_N` | 重排序后保留条数 | `3` |
+| `INDEX_SOURCE_EXP` | 复用其他实验的索引（不重新构建） | — |
+
+## 断点续传
+
+Benchmark 和 Evaluate 均支持断点续传，中断后重新运行会自动跳过已完成的查询。如需从头重跑：
+
+```bash
+python pipeline/benchmark.py --config configs/exp1_baseline.py --no-resume
+```
+
+## 检查环境
+
+```bash
+python tests/check_env.py     # 检查依赖、API Key、数据、索引是否完整
+python tests/test_run.py      # 实际调用 API 跑通完整流程（自动清理，不留痕迹）
 ```

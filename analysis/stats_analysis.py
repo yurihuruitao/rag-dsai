@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 _HERE       = os.path.dirname(os.path.abspath(__file__))
 _ROOT       = os.path.dirname(_HERE)
 RESULTS_DIR = os.path.join(_ROOT, "results")
-OUT_DIR     = _HERE
+OUT_DIR     = os.path.join(_HERE, "output")
 BASELINE = "baseline"
 
 EXP_LABELS = {

@@ -34,7 +34,7 @@ def main():
     print("\n\n" + "-" * 50)
     print("👉 阶段 1: 构建向量索引 (build_index.py)")
     print("-" * 50)
-    build_cmd = [sys.executable, "build_index.py", "--config", args.config]
+    build_cmd = [sys.executable, "pipeline/build_index.py", "--config", args.config]
     if args.rebuild:
         build_cmd.append("--rebuild")
         
@@ -48,7 +48,7 @@ def main():
     print("👉 阶段 2: 运行测试并生成回答 (benchmark.py)")
     print("-" * 50)
     bench_cmd = [
-        sys.executable, "benchmark.py", 
+        sys.executable, "pipeline/benchmark.py",
         "--config", args.config,
         "--workers", str(args.workers)
     ]
@@ -67,7 +67,7 @@ def main():
     print("👉 阶段 3: 使用大模型进行评估 (evaluate.py)")
     print("-" * 50)
     eval_cmd = [
-        sys.executable, "evaluate.py",
+        sys.executable, "pipeline/evaluate.py",
         "--config", args.config,
         "--workers", str(args.workers)
     ]
