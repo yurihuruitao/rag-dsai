@@ -6,3 +6,4 @@ bench_pdf/
 ourbench/pdf/
 .env
 *.log
+.venv/

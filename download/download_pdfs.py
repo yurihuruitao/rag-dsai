@@ -12,8 +12,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # --- Configuration ---
-JSON_PATH = "/workspace/rag/download/pdf_urls.json"
-OUTPUT_DIR = "/workspace/rag/ourbench/pdf"
+_HERE = Path(__file__).parent
+JSON_PATH = str(_HERE / "pdf_urls.json")
+OUTPUT_DIR = str(_HERE.parent / "ourbench" / "pdf")
 MAX_WORKERS = 8  # number of concurrent downloads
 MAX_RETRIES = 3  # retry count per file
 RETRY_DELAY = 2  # seconds between retries
