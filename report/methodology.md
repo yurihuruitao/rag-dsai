@@ -6,7 +6,7 @@ This study presents a systematic evaluation framework for Retrieval-Augmented Ge
 
 Figure 1 presents the overall architecture of our evaluation framework. The system operates as a three-stage pipeline: (1) **Index Construction** — the 500 academic PDFs from OurBench are parsed, chunked under a configurable strategy, and encoded into parallel FAISS vector and BM25 inverted indexes; (2) **Benchmark Execution** — each of the 821 OurBench queries is processed through a hybrid retrieval engine with optional cross-encoder re-ranking, and an LLM generator produces a grounded answer; (3) **Automated Evaluation** — a separate LLM judge (`deepseek-reasoner`) scores every generated answer on a 0–10 scale against the ground-truth reference. All eight experimental configurations pass through this identical pipeline, differing only in the parameter under investigation, and their results are aggregated for statistical comparison.
 
-![Figure 1: Three-Stage Pipeline Execution Flow](methodology_figures/fig1_pipeline_execution.png)
+![Figure 1: Three-Stage Pipeline Execution Flow](figures/methodology/fig1_pipeline_execution.png)
 
 *Figure 1. Three-stage pipeline execution flow. Stage 1 (blue) constructs FAISS and BM25 indexes from OurBench PDFs. Stage 2 (green) runs multi-threaded benchmark generation with periodic checkpointing. Stage 3 (orange) performs LLM-as-judge evaluation. All experiment results are aggregated for final statistical analysis.*
 
@@ -30,7 +30,7 @@ Raw document text is partitioned into overlapping chunks prior to indexing. We i
 
 Each strategy is parameterized by **chunk size** (in tokens) and **chunk overlap** (in tokens). The overlap ensures contextual continuity across chunk boundaries.
 
-![Figure 2: Chunking Strategies Comparison](methodology_figures/fig2_chunking_strategies.png)
+![Figure 2: Chunking Strategies Comparison](figures/methodology/fig2_chunking_strategies.png)
 
 *Figure 2. Comparison of three chunking strategies applied to the same raw document text. Sentence chunking splits at sentence boundaries and may cross paragraph breaks; token chunking splits at fixed token intervals and may cut mid-sentence; paragraph chunking splits only at double-newline boundaries, keeping each paragraph intact. Yellow regions indicate overlap zones between adjacent chunks.*
 
@@ -50,7 +50,7 @@ We employ a **hybrid retrieval** strategy that fuses dense semantic search with 
 
 This hybrid approach mitigates the well-known limitations of purely semantic retrieval (missing exact keyword matches) and purely lexical retrieval (missing semantic paraphrases).
 
-![Figure 3: Hybrid Retrieval and Re-ranking Architecture](methodology_figures/fig3_hybrid_retrieval.png)
+![Figure 3: Hybrid Retrieval and Re-ranking Architecture](figures/methodology/fig3_hybrid_retrieval.png)
 
 *Figure 3. Hybrid retrieval architecture. The dense path (blue) encodes queries via BGE-M3 for FAISS vector search; the sparse path (green) uses BM25 keyword matching. Results are fused via reciprocal rank fusion (orange), optionally refined by a cross-encoder re-ranker (dashed border), and fed to the LLM generator (purple).*
 
@@ -109,7 +109,7 @@ Experiments that share the same chunking configuration (E2, E6, E8) **reuse the 
 
 To ensure that observed differences are attributable solely to the varied parameter and not to indexing randomness, experiments that differ only in retrieval or generation settings reuse a pre-built index:
 
-![Figure 4: Index Sharing Across Experiments](methodology_figures/fig4_index_sharing.png)
+![Figure 4: Index Sharing Across Experiments](figures/methodology/fig4_index_sharing.png)
 
 *Figure 4. Index reuse strategy across experiments. E2, E6, and E8 (blue) share the baseline FAISS/BM25 index, isolating the effect of their respective independent variables. E3, E4, E5, and E7 (green) each build independent indexes due to differing chunking configurations.*
 

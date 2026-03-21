@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-RAG evaluation system built on LlamaIndex. Indexes 500 PDF papers (OurBench, our self-constructed benchmark), runs QA benchmarks with hybrid retrieval (FAISS + BM25), and scores results using an LLM judge. The primary goal is comparing different chunking strategies and retrieval configurations across 8 controlled experiments.
+RAG evaluation system built on LlamaIndex. Indexes 500 PDF papers from OurBench (our self-constructed benchmark), runs QA benchmarks with hybrid retrieval (FAISS + BM25), and scores results using an LLM judge. The primary goal is comparing different chunking strategies and retrieval configurations across 8 controlled experiments.
 
 ## Setup
 
@@ -91,5 +91,4 @@ Experiments E2, E6, E8 reuse the baseline index (`INDEX_SOURCE_EXP="baseline"`) 
 - `storage/{EXP_NAME}/` — persisted FAISS indexes
 - `results/bench_{EXP_NAME}.json` — benchmark outputs
 - `results/eval_{EXP_NAME}.json` — evaluation scores
-- `analysis/output/stats_summary.csv` — experiment comparison summary
-- `methodology.md` — paper methodology section with generated flowcharts in `methodology_figures/`
+- `report/` — all reports, summaries, and figures in one place (methodology.md, summary.pdf/tex, stats CSVs, figures/)
